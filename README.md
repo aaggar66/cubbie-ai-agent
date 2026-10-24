@@ -33,11 +33,6 @@ student-saver/
   scripts/wallet.py          # wallet, savings log, deal watches
 ```
 
-## Also in this repo
-
-- `student-discount-radar/` — earlier brand-lookup-only Skill
-- `internship-radar/` — internship shortlist Skill
-
 ## Local checks
 
 ```bash
