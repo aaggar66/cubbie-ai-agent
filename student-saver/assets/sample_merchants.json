@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "disclaimer": "SAMPLE data for --sample runs only. Verify nothing from this file as a live offer.",
+  "partner_hubs": {
+    "unidays": "https://www.myunidays.com",
+    "studentbeans": "https://www.studentbeans.com",
+    "amazon_prime_student": "https://www.amazon.com/Amazon-Student"
+  },
+  "categories": [
+    "food_restaurants",
+    "grocery",
+    "shopping",
+    "movies_entertainment",
+    "software_ai_cloud"
+  ],
+  "merchants": [
+    {
+      "name": "McDonald's",
+      "aliases": ["mcdonalds", "maccas"],
+      "category": "food_restaurants",
+      "countries": ["US", "UK"],
+      "partners": ["unidays", "student_id_ask_store"],
+      "verify_urls": [
+        "https://www.myunidays.com/US/en-US/partners/mcdonalds/view",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check UNiDAYS / Student Beans and ask local franchise with student ID.",
+      "notes": "US often franchise-dependent."
+    },
+    {
+      "name": "Amazon Prime Student",
+      "aliases": ["prime student", "amazon"],
+      "category": "shopping",
+      "countries": ["US"],
+      "partners": ["edu_verify"],
+      "verify_urls": ["https://www.amazon.com/Amazon-Student"],
+      "offer_hint": "Official Amazon Student page.",
+      "notes": ""
+    },
+    {
+      "name": "AMC Theatres",
+      "aliases": ["amc"],
+      "category": "movies_entertainment",
+      "countries": ["US"],
+      "partners": ["student_id_ask_store"],
+      "verify_urls": ["https://www.amctheatres.com"],
+      "offer_hint": "Student tickets with ID at many locations.",
+      "notes": ""
+    },
+    {
+      "name": "GitHub Student Developer Pack",
+      "aliases": ["github pack", "github education"],
+      "category": "software_ai_cloud",
+      "countries": ["global"],
+      "partners": ["github_education"],
+      "verify_urls": ["https://education.github.com/pack"],
+      "offer_hint": "Claim via GitHub Education.",
+      "notes": ""
+    }
+  ]
+}

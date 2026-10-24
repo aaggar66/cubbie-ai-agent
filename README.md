@@ -1,32 +1,50 @@
-# Cubbie Skills (Hackathon · Track 1)
+# Cubbie StudentSaver (Hackathon · Track 1)
 
-Teach Cubbie a new trick: https://hackathon.cubbie.ai
+**Pitch:** Cubbie becomes an autonomous student savings agent — Student Wallet, brand discount lookup, stackable effective-price optimizer, scheduled deal watch, savings leak checks, and a semester savings summary.
 
-## Student Discount Radar (primary)
+Not “Honey for students.” The question is: *given what I’m eligible for, what’s the cheapest legitimate way to buy — and tell me when my target hits?*
 
-**Moment:** *“Does McDonald’s have a student discount?”* — same for Amazon, AMC, Spotify, Adobe, groceries, etc.
+## Install on Cubbie
 
-Bundled **200+ merchant index** (food, grocery, shopping, movie theatres, software/AI) + live web verification on UNiDAYS / Student Beans / official edu pages. No invented coupon codes.
+Public GitHub repo: https://github.com/aaggar66/cubbie-ai-agent
 
-Folder: `student-discount-radar/`
+Text Cubbie:
 
-### Install on Cubbie
+```text
+https://github.com/aaggar66/cubbie-ai-agent/tree/main/student-saver
+```
 
-1. Repo must be **public** on GitHub: https://github.com/aaggar66/cubbie-ai-agent  
-2. Text Cubbie:
-   ```text
-   https://github.com/aaggar66/cubbie-ai-agent/tree/main/student-discount-radar
-   ```
-3. Reply **yes**, then try: `Does McDonald's have a student discount?` or `AMC student tickets?`
+Reply **yes**, then try:
+
+- `Build my student wallet — ASU, Prime Student, Chase Freedom`
+- `Does McDonald's have a student discount?`
+- `Optimize my purchase: $199 headphones, 10% student, 15% coupon, 5% card — don't stack student+coupon`
+- `Watch AirPods until effective price is under $170`
+- `How much have I saved?`
+
+## What's in the Skill
+
+```text
+student-saver/
+  SKILL.md
+  assets/merchants.json      # 200+ brands (food, grocery, shopping, movies, software)
+  scripts/lookup.py          # brand / category search
+  scripts/optimize.py        # stackability + effective price
+  scripts/wallet.py          # wallet, savings log, deal watches
+```
 
 ## Also in this repo
 
-- `internship-radar/` — finds internships, tracks close dates, drafts cover letters (consent before apply/send)
+- `student-discount-radar/` — earlier brand-lookup-only Skill
+- `internship-radar/` — internship shortlist Skill
 
-## Local check
+## Local checks
 
 ```bash
-python3 path/to/cubbie-hackathon-kit/skills/cubbie-skill-creator/scripts/validate_cubbie_skill.py student-discount-radar
+python3 student-saver/scripts/lookup.py --sample --query mcdonalds
+python3 student-saver/scripts/optimize.py --sample
+HOME=$(mktemp -d) python3 student-saver/scripts/wallet.py --sample set --university "Demo U" --card "Chase Freedom"
+python3 path/to/cubbie-hackathon-kit/skills/cubbie-skill-creator/scripts/validate_cubbie_skill.py student-saver
 ```
 
-Cubbie: https://cubbie.ai
+Cubbie: https://cubbie.ai · Hackathon: https://hackathon.cubbie.ai

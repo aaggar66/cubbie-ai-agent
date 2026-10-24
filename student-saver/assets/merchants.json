@@ -1,0 +1,5497 @@
+{
+  "version": 1,
+  "disclaimer": "Index of merchants and WHERE to check for student discounts. Offers change. Never invent coupon codes or guarantee a percent off. Cubbie must verify verify_urls / partner sites before telling the student an offer is live.",
+  "partner_hubs": {
+    "unidays": "https://www.myunidays.com",
+    "studentbeans": "https://www.studentbeans.com",
+    "sheerid": "https://www.sheerid.com",
+    "github_education": "https://education.github.com/pack",
+    "amazon_prime_student": "https://www.amazon.com/Amazon-Student",
+    "apple_education": "https://www.apple.com/us-edu/store",
+    "spotify_student": "https://www.spotify.com/student"
+  },
+  "categories": [
+    "food_restaurants",
+    "grocery",
+    "shopping",
+    "movies_entertainment",
+    "software_ai_cloud",
+    "travel"
+  ],
+  "merchants": [
+    {
+      "name": "&pizza",
+      "aliases": [
+        "andpizza"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Applebee's",
+      "aliases": [
+        "applebees"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check UNiDAYS / Student Beans.",
+      "notes": ""
+    },
+    {
+      "name": "Arby's",
+      "aliases": [
+        "arbys"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Benihana",
+      "aliases": [
+        "benihana"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Blaze Pizza",
+      "aliases": [
+        "blaze pizza"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Buffalo Wild Wings",
+      "aliases": [
+        "bww",
+        "bdubs"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Often local student nights \u2014 ask with ID.",
+      "notes": ""
+    },
+    {
+      "name": "Burger King",
+      "aliases": [
+        "bk",
+        "burgerking"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check UNiDAYS/Student Beans and ask in-store with ID.",
+      "notes": ""
+    },
+    {
+      "name": "Caf\u00e9 Nero",
+      "aliases": [
+        "caf\u00e9 nero"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Carl's Jr",
+      "aliases": [
+        "carls jr"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Cava",
+      "aliases": [
+        "cava"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "app_promo",
+        "campus"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Campus / app.",
+      "notes": ""
+    },
+    {
+      "name": "Cheddar's Scratch Kitchen",
+      "aliases": [
+        "cheddars scratch kitchen"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Chick-fil-A",
+      "aliases": [
+        "chickfila",
+        "chick-fil-a"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "campus"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Campus locations may have student deals; ask locally.",
+      "notes": ""
+    },
+    {
+      "name": "Chili's",
+      "aliases": [
+        "chilis"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Chipotle",
+      "aliases": [
+        "chipotle"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.chipotle.com"
+      ],
+      "offer_hint": "Campus locations sometimes run student promos; check app.",
+      "notes": ""
+    },
+    {
+      "name": "Chipotle Mexican Grill",
+      "aliases": [
+        "chipotle mexican grill"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Costa Coffee",
+      "aliases": [
+        "costa coffee"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Cracker Barrel",
+      "aliases": [
+        "cracker barrel"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Culver's",
+      "aliases": [
+        "culvers"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Denny's",
+      "aliases": [
+        "dennys"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Domino's",
+      "aliases": [
+        "dominos"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Platform + app codes by country.",
+      "notes": ""
+    },
+    {
+      "name": "DoorDash",
+      "aliases": [
+        "doordash"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com",
+        "https://www.doordash.com"
+      ],
+      "offer_hint": "DashPass / student partner deals vary.",
+      "notes": ""
+    },
+    {
+      "name": "Dunkin'",
+      "aliases": [
+        "dunkin",
+        "dunkin donuts"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Local / app; ask with student ID.",
+      "notes": ""
+    },
+    {
+      "name": "Dutch Bros",
+      "aliases": [
+        "dutch bros"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "EveryPlate",
+      "aliases": [
+        "everyplate"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Meal kit student offers via partners.",
+      "notes": ""
+    },
+    {
+      "name": "Factor",
+      "aliases": [
+        "factor meals"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Check UNiDAYS Food & Drink.",
+      "notes": ""
+    },
+    {
+      "name": "Five Guys",
+      "aliases": [
+        "fiveguys"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Ask locally with student ID.",
+      "notes": ""
+    },
+    {
+      "name": "Greggs",
+      "aliases": [
+        "greggs"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Grubhub",
+      "aliases": [
+        "grubhub"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "studentbeans",
+        "campus",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.studentbeans.com",
+        "https://www.grubhub.com"
+      ],
+      "offer_hint": "Campus and platform offers.",
+      "notes": ""
+    },
+    {
+      "name": "Hardee's",
+      "aliases": [
+        "hardees"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "HelloFresh",
+      "aliases": [
+        "hello fresh"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Meal kit student trials via partners.",
+      "notes": ""
+    },
+    {
+      "name": "IHOP",
+      "aliases": [
+        "ihop"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "In-N-Out",
+      "aliases": [
+        "innout",
+        "in n out"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "none_official"
+      ],
+      "verify_urls": [],
+      "offer_hint": "No widely advertised student program \u2014 ask locally only.",
+      "notes": "Do not invent a discount."
+    },
+    {
+      "name": "Itsu",
+      "aliases": [
+        "itsu"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Jack in the Box",
+      "aliases": [
+        "jack in the box"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "KFC",
+      "aliases": [
+        "kfc",
+        "kentucky fried chicken"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Stronger on UK/EU platforms; verify region.",
+      "notes": ""
+    },
+    {
+      "name": "Leon",
+      "aliases": [
+        "leon"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Little Caesars",
+      "aliases": [
+        "little caesars"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "LongHorn Steakhouse",
+      "aliases": [
+        "longhorn steakhouse"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "McDonald's",
+      "aliases": [
+        "mcdonalds",
+        "maccas",
+        "mcd"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "student_id_ask_store"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com/US/en-US/partners/mcdonalds/view",
+        "https://www.studentbeans.com/us/en"
+      ],
+      "offer_hint": "Often via UNiDAYS/Student Beans or local franchise with student ID \u2014 not always nationwide US corporate.",
+      "notes": "US is franchise-dependent; always verify country + local store."
+    },
+    {
+      "name": "MOD Pizza",
+      "aliases": [
+        "mod pizza"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Moe's Southwest Grill",
+      "aliases": [
+        "moes southwest grill"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Nando's",
+      "aliases": [
+        "nandos"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Common UK/AU student offers.",
+      "notes": ""
+    },
+    {
+      "name": "Olive Garden",
+      "aliases": [
+        "olivegarden"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check UNiDAYS Food & Drink category.",
+      "notes": ""
+    },
+    {
+      "name": "Outback Steakhouse",
+      "aliases": [
+        "outback steakhouse"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Panda Express",
+      "aliases": [
+        "pandaexpress"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "campus"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Campus locations may discount with ID.",
+      "notes": ""
+    },
+    {
+      "name": "Panera Bread",
+      "aliases": [
+        "panera bread"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Papa John's",
+      "aliases": [
+        "papajohns"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Local / app.",
+      "notes": ""
+    },
+    {
+      "name": "Peet's Coffee",
+      "aliases": [
+        "peets coffee"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Pei Wei",
+      "aliases": [
+        "pei wei"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Pizza Hut",
+      "aliases": [
+        "pizzahut"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Varies by country; verify on platforms.",
+      "notes": ""
+    },
+    {
+      "name": "Popeyes",
+      "aliases": [
+        "popeyes"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Pret A Manger",
+      "aliases": [
+        "pret"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "subscription"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Club / student offers by market.",
+      "notes": ""
+    },
+    {
+      "name": "Qdoba",
+      "aliases": [
+        "qdoba"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Raising Cane's",
+      "aliases": [
+        "raising canes"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Red Lobster",
+      "aliases": [
+        "red lobster"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Shake Shack",
+      "aliases": [
+        "shakeshack"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com/US/en-US/categories/food-drink",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Listed on student platforms in some regions.",
+      "notes": ""
+    },
+    {
+      "name": "Sonic Drive-In",
+      "aliases": [
+        "sonic drive-in"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Starbucks",
+      "aliases": [
+        "starbucks"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "app_promo",
+        "campus_card"
+      ],
+      "verify_urls": [
+        "https://www.starbucks.com"
+      ],
+      "offer_hint": "Campus card / app offers more common than a flat student %.",
+      "notes": ""
+    },
+    {
+      "name": "Subway",
+      "aliases": [
+        "subway"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Common on student discount platforms by country.",
+      "notes": ""
+    },
+    {
+      "name": "Sweetgreen",
+      "aliases": [
+        "sweetgreen"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "app_promo",
+        "campus"
+      ],
+      "verify_urls": [],
+      "offer_hint": "App and campus promos.",
+      "notes": ""
+    },
+    {
+      "name": "Taco Bell",
+      "aliases": [
+        "tacobell"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "app_promo",
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "App deals + occasional student partner offers.",
+      "notes": ""
+    },
+    {
+      "name": "Texas Roadhouse",
+      "aliases": [
+        "texas roadhouse"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "TGI Fridays",
+      "aliases": [
+        "tgi fridays"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "The Cheesecake Factory",
+      "aliases": [
+        "the cheesecake factory"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Tim Hortons",
+      "aliases": [
+        "tim hortons"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Uber Eats",
+      "aliases": [
+        "ubereats",
+        "uber eats"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com",
+        "https://www.ubereats.com"
+      ],
+      "offer_hint": "Frequent student partner promos \u2014 verify current offer in app/UNiDAYS.",
+      "notes": ""
+    },
+    {
+      "name": "Wagamama",
+      "aliases": [
+        "wagamama"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Wendy's",
+      "aliases": [
+        "wendys"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Usually local / app promos; ask with student ID.",
+      "notes": ""
+    },
+    {
+      "name": "Whataburger",
+      "aliases": [
+        "whataburger"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Wingstop",
+      "aliases": [
+        "wingstop"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "Yard House",
+      "aliases": [
+        "yard house"
+      ],
+      "category": "food_restaurants",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Search UNiDAYS + Student Beans + ask in-store with student ID; confirm country.",
+      "notes": ""
+    },
+    {
+      "name": "7-Eleven",
+      "aliases": [
+        "7-eleven"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Albertsons",
+      "aliases": [
+        "albertsons",
+        "safeway",
+        "vons"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "app_promo"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Banner apps; ask campus community pages.",
+      "notes": ""
+    },
+    {
+      "name": "Aldi",
+      "aliases": [
+        "aldi"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "app_promo"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Regional; check app.",
+      "notes": ""
+    },
+    {
+      "name": "Amazon Fresh",
+      "aliases": [
+        "amazon fresh"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "prime_student"
+      ],
+      "verify_urls": [
+        "https://www.amazon.com/Amazon-Student"
+      ],
+      "offer_hint": "Tied to Prime Student eligibility.",
+      "notes": ""
+    },
+    {
+      "name": "Amazon Prime Student",
+      "aliases": [
+        "prime student",
+        "amazon student"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.amazon.com/Amazon-Student"
+      ],
+      "offer_hint": "Half-price Prime for eligible students \u2014 verify on Amazon Student page.",
+      "notes": ""
+    },
+    {
+      "name": "Asda",
+      "aliases": [
+        "asda"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "BJ's Wholesale",
+      "aliases": [
+        "bjs"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Check UNiDAYS for membership offers.",
+      "notes": ""
+    },
+    {
+      "name": "Boots",
+      "aliases": [
+        "boots"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Circle K",
+      "aliases": [
+        "circle k"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Costco",
+      "aliases": [
+        "costco wholesale"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "campus"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.costco.com"
+      ],
+      "offer_hint": "Student/new-member partner offers appear periodically on UNiDAYS.",
+      "notes": ""
+    },
+    {
+      "name": "CVS",
+      "aliases": [
+        "cvs"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Fresh Market",
+      "aliases": [
+        "fresh market"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "H-E-B",
+      "aliases": [
+        "h-e-b"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Instacart",
+      "aliases": [
+        "instacart"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Partner trials on student platforms.",
+      "notes": ""
+    },
+    {
+      "name": "Kroger",
+      "aliases": [
+        "kroger"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "app_promo",
+        "campus"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Loyalty app + local campus deals.",
+      "notes": ""
+    },
+    {
+      "name": "Lidl",
+      "aliases": [
+        "lidl"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Stronger in EU/UK platforms.",
+      "notes": ""
+    },
+    {
+      "name": "Meijer",
+      "aliases": [
+        "meijer"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Morrisons",
+      "aliases": [
+        "morrisons"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Ocado",
+      "aliases": [
+        "ocado"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Publix",
+      "aliases": [
+        "publix"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Rite Aid",
+      "aliases": [
+        "rite aid"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Sainsbury's",
+      "aliases": [
+        "sainsburys"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Sam's Club",
+      "aliases": [
+        "sams club"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "studentbeans",
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.studentbeans.com",
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Membership student promos when listed.",
+      "notes": ""
+    },
+    {
+      "name": "Sheetz",
+      "aliases": [
+        "sheetz"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Shipt",
+      "aliases": [
+        "shipt"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Listed under UNiDAYS Food & Drink at times.",
+      "notes": ""
+    },
+    {
+      "name": "Sprouts",
+      "aliases": [
+        "sprouts"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Superdrug",
+      "aliases": [
+        "superdrug"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Target",
+      "aliases": [
+        "target circle"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com",
+        "https://www.target.com"
+      ],
+      "offer_hint": "Circle + occasional student partner offers.",
+      "notes": ""
+    },
+    {
+      "name": "Tesco",
+      "aliases": [
+        "tesco"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Trader Joe's",
+      "aliases": [
+        "traderjoes",
+        "trader joe"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "none_official"
+      ],
+      "verify_urls": [],
+      "offer_hint": "No national student program widely advertised.",
+      "notes": "Do not invent."
+    },
+    {
+      "name": "Waitrose",
+      "aliases": [
+        "waitrose"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Walgreens",
+      "aliases": [
+        "walgreens"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Walmart",
+      "aliases": [
+        "walmart+",
+        "walmart plus"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com",
+        "https://www.walmart.com"
+      ],
+      "offer_hint": "Partner / Plus trials appear on student platforms.",
+      "notes": ""
+    },
+    {
+      "name": "Wawa",
+      "aliases": [
+        "wawa"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Wegmans",
+      "aliases": [
+        "wegmans"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "app_promo",
+        "loyalty"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check student platforms + store loyalty app for student or youth offers.",
+      "notes": ""
+    },
+    {
+      "name": "Whole Foods",
+      "aliases": [
+        "wholefoods",
+        "amazon whole foods"
+      ],
+      "category": "grocery",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "prime_student"
+      ],
+      "verify_urls": [
+        "https://www.amazon.com/Amazon-Student"
+      ],
+      "offer_hint": "Prime Student can affect delivery/deals \u2014 verify Amazon student page.",
+      "notes": ""
+    },
+    {
+      "name": "Alamo Drafthouse",
+      "aliases": [
+        "alamo"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "local"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Ask local venue.",
+      "notes": ""
+    },
+    {
+      "name": "AMC Theatres",
+      "aliases": [
+        "amc",
+        "amc theaters"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "unidays",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.amctheatres.com"
+      ],
+      "offer_hint": "Student ticket prices at many locations with ID; also platform offers.",
+      "notes": ""
+    },
+    {
+      "name": "Cinemark",
+      "aliases": [
+        "cinemark"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store"
+      ],
+      "verify_urls": [
+        "https://www.cinemark.com"
+      ],
+      "offer_hint": "Student pricing at participating theatres with ID.",
+      "notes": ""
+    },
+    {
+      "name": "Cineplex",
+      "aliases": [
+        "cineplex"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.cineplex.com"
+      ],
+      "offer_hint": "Canada \u2014 student pricing / partners.",
+      "notes": ""
+    },
+    {
+      "name": "Disney+",
+      "aliases": [
+        "disney plus",
+        "disney+"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "bundle_promo",
+        "campus"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Campus / bundle promos only when officially listed.",
+      "notes": ""
+    },
+    {
+      "name": "Event Cinemas",
+      "aliases": [
+        "event cinemas"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "studentbeans",
+        "student_id_ask_store"
+      ],
+      "verify_urls": [
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "AU/NZ \u2014 verify Student Beans / ID.",
+      "notes": ""
+    },
+    {
+      "name": "Hulu",
+      "aliases": [
+        "hulu"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "campus",
+        "bundle_promo",
+        "spotify_bundle"
+      ],
+      "verify_urls": [
+        "https://www.hulu.com"
+      ],
+      "offer_hint": "Sometimes via Spotify student bundle \u2014 verify.",
+      "notes": ""
+    },
+    {
+      "name": "Landmark Theatres",
+      "aliases": [
+        "landmark"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store"
+      ],
+      "verify_urls": [],
+      "offer_hint": "Student tickets often with ID.",
+      "notes": ""
+    },
+    {
+      "name": "Netflix",
+      "aliases": [
+        "netflix"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "none_official_student_plan"
+      ],
+      "verify_urls": [
+        "https://www.netflix.com"
+      ],
+      "offer_hint": "No widely advertised dedicated student plan in US \u2014 do not invent.",
+      "notes": "Say so clearly if nothing official."
+    },
+    {
+      "name": "ODEON",
+      "aliases": [
+        "odeon"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "UK student offers via platforms + ID.",
+      "notes": ""
+    },
+    {
+      "name": "Regal Cinemas",
+      "aliases": [
+        "regal",
+        "regal movies"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "student_id_ask_store",
+        "app_promo"
+      ],
+      "verify_urls": [
+        "https://www.regmovies.com"
+      ],
+      "offer_hint": "Student tickets common with valid ID \u2014 confirm local theatre.",
+      "notes": ""
+    },
+    {
+      "name": "StubHub",
+      "aliases": [
+        "stubhub"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Check platforms.",
+      "notes": ""
+    },
+    {
+      "name": "Ticketmaster",
+      "aliases": [
+        "ticketmaster"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Occasional student partner offers.",
+      "notes": ""
+    },
+    {
+      "name": "Vue",
+      "aliases": [
+        "vue cinema"
+      ],
+      "category": "movies_entertainment",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "UK/EU student platform offers.",
+      "notes": ""
+    },
+    {
+      "name": "Adidas",
+      "aliases": [
+        "adidas"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Student platform partner.",
+      "notes": ""
+    },
+    {
+      "name": "Amazon",
+      "aliases": [
+        "amazon.com",
+        "amazon shop"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "prime_student",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.amazon.com/Amazon-Student"
+      ],
+      "offer_hint": "Prime Student + student deals hub.",
+      "notes": ""
+    },
+    {
+      "name": "Amazon Textbooks",
+      "aliases": [
+        "amazon textbooks"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "American Eagle",
+      "aliases": [
+        "ae",
+        "aerie"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Common US student partner.",
+      "notes": ""
+    },
+    {
+      "name": "Apple Education",
+      "aliases": [
+        "apple edu",
+        "apple store education"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.apple.com/us-edu/store",
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Education pricing on Mac/iPad; UNiDAYS iD in some regions.",
+      "notes": ""
+    },
+    {
+      "name": "Apple Music Student",
+      "aliases": [
+        "apple music"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.apple.com/apple-music/",
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Student plan / UNiDAYS in some regions.",
+      "notes": ""
+    },
+    {
+      "name": "ASOS",
+      "aliases": [
+        "asos"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Long-running student discounts online.",
+      "notes": ""
+    },
+    {
+      "name": "Audible",
+      "aliases": [
+        "audible"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "prime_student"
+      ],
+      "verify_urls": [
+        "https://www.amazon.com/Amazon-Student"
+      ],
+      "offer_hint": "Often tied to Amazon student ecosystem \u2014 verify.",
+      "notes": ""
+    },
+    {
+      "name": "Barnes & Noble",
+      "aliases": [
+        "barnes & noble"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Bath & Body Works",
+      "aliases": [
+        "bath & body works"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Best Buy",
+      "aliases": [
+        "bestbuy",
+        "best buy"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "unidays",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.bestbuy.com",
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Student/edu offers when listed; verify site.",
+      "notes": ""
+    },
+    {
+      "name": "Boohoo",
+      "aliases": [
+        "boohoo"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Bookshop.org",
+      "aliases": [
+        "bookshop.org"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Calvin Klein",
+      "aliases": [
+        "calvin klein"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Chegg",
+      "aliases": [
+        "chegg"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Coach",
+      "aliases": [
+        "coach"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Columbia Sportswear",
+      "aliases": [
+        "columbia sportswear"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Converse",
+      "aliases": [
+        "converse"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Etsy",
+      "aliases": [
+        "etsy"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Occasional platform codes.",
+      "notes": ""
+    },
+    {
+      "name": "Gap",
+      "aliases": [
+        "gap",
+        "old navy",
+        "banana republic"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Brand family often on student platforms.",
+      "notes": ""
+    },
+    {
+      "name": "H&M",
+      "aliases": [
+        "hm",
+        "h and m"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check country on UNiDAYS.",
+      "notes": ""
+    },
+    {
+      "name": "Home Depot",
+      "aliases": [
+        "home depot"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "IKEA",
+      "aliases": [
+        "ikea"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "student_id_ask_store"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Student offers vary by country.",
+      "notes": ""
+    },
+    {
+      "name": "IKEA Family",
+      "aliases": [
+        "ikea family"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Kate Spade",
+      "aliases": [
+        "kate spade"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Levi's",
+      "aliases": [
+        "levi's"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Lowe's",
+      "aliases": [
+        "lowe's"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Lululemon",
+      "aliases": [
+        "lululemon"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Macy's",
+      "aliases": [
+        "macys"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Occasional partner offers.",
+      "notes": ""
+    },
+    {
+      "name": "Mango",
+      "aliases": [
+        "mango"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "New Balance",
+      "aliases": [
+        "new balance"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Nike",
+      "aliases": [
+        "nike.com"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Frequent student % via partners.",
+      "notes": ""
+    },
+    {
+      "name": "Nordstrom",
+      "aliases": [
+        "nordstrom rack"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Check platforms.",
+      "notes": ""
+    },
+    {
+      "name": "Office Depot",
+      "aliases": [
+        "office depot"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Patagonia",
+      "aliases": [
+        "patagonia"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "PrettyLittleThing",
+      "aliases": [
+        "prettylittlething"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Puma",
+      "aliases": [
+        "puma"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Ralph Lauren",
+      "aliases": [
+        "ralph lauren"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Samsung Education",
+      "aliases": [
+        "samsung edu"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.samsung.com"
+      ],
+      "offer_hint": "Education store / SheerID in many countries.",
+      "notes": ""
+    },
+    {
+      "name": "Sephora",
+      "aliases": [
+        "sephora"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Shein",
+      "aliases": [
+        "shein"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Spotify",
+      "aliases": [
+        "spotify premium"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.spotify.com/student"
+      ],
+      "offer_hint": "Student Premium plan.",
+      "notes": ""
+    },
+    {
+      "name": "Staples",
+      "aliases": [
+        "staples"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "The North Face",
+      "aliases": [
+        "the north face"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Tommy Hilfiger",
+      "aliases": [
+        "tommy hilfiger"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Topshop",
+      "aliases": [
+        "topshop"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Ulta Beauty",
+      "aliases": [
+        "ulta beauty"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Under Armour",
+      "aliases": [
+        "under armour"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Uniqlo",
+      "aliases": [
+        "uniqlo"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Platform offers by market.",
+      "notes": ""
+    },
+    {
+      "name": "Urban Outfitters",
+      "aliases": [
+        "uo",
+        "urbanoutfitters"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Student platform partner.",
+      "notes": ""
+    },
+    {
+      "name": "Vans",
+      "aliases": [
+        "vans"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "Wayfair",
+      "aliases": [
+        "wayfair"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Home goods student partner offers.",
+      "notes": ""
+    },
+    {
+      "name": "YouTube Premium Student",
+      "aliases": [
+        "youtube student"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.youtube.com/premium/student"
+      ],
+      "offer_hint": "Student plan where offered.",
+      "notes": ""
+    },
+    {
+      "name": "Zara",
+      "aliases": [
+        "zara"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "studentbeans",
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.studentbeans.com",
+        "https://www.myunidays.com"
+      ],
+      "offer_hint": "Region-dependent.",
+      "notes": ""
+    },
+    {
+      "name": "Zara Home",
+      "aliases": [
+        "zara home"
+      ],
+      "category": "shopping",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "sheerid",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Look up on UNiDAYS / Student Beans / SheerID education portal for this brand.",
+      "notes": ""
+    },
+    {
+      "name": "1Password",
+      "aliases": [
+        "1password"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "github_education"
+      ],
+      "verify_urls": [
+        "https://education.github.com/pack",
+        "https://1password.com"
+      ],
+      "offer_hint": "Student Pack / education offers when listed.",
+      "notes": ""
+    },
+    {
+      "name": "Adobe Creative Cloud",
+      "aliases": [
+        "photoshop",
+        "adobe cc"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.adobe.com/creativecloud/buy/students.html"
+      ],
+      "offer_hint": "Education subscription pricing.",
+      "notes": ""
+    },
+    {
+      "name": "Affinity",
+      "aliases": [
+        "affinity photo",
+        "affinity designer"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "unidays"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://affinity.serif.com"
+      ],
+      "offer_hint": "Education / partner pricing.",
+      "notes": ""
+    },
+    {
+      "name": "Autodesk Education",
+      "aliases": [
+        "autocad student",
+        "fusion 360 education"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.autodesk.com/education"
+      ],
+      "offer_hint": "Free education access for eligible students.",
+      "notes": ""
+    },
+    {
+      "name": "AWS Educate",
+      "aliases": [
+        "amazon web services educate",
+        "aws student"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://aws.amazon.com/education/awseducate/"
+      ],
+      "offer_hint": "Education learning + credits pathways.",
+      "notes": ""
+    },
+    {
+      "name": "Azure for Students",
+      "aliases": [
+        "azure students"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://azure.microsoft.com/free/students/"
+      ],
+      "offer_hint": "Student cloud credits.",
+      "notes": ""
+    },
+    {
+      "name": "Bitwarden",
+      "aliases": [
+        "bitwarden"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "github_education"
+      ],
+      "verify_urls": [
+        "https://education.github.com/pack"
+      ],
+      "offer_hint": "Often via Student Pack partners.",
+      "notes": ""
+    },
+    {
+      "name": "Canva",
+      "aliases": [
+        "canva pro"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "campus"
+      ],
+      "verify_urls": [
+        "https://www.canva.com/education/"
+      ],
+      "offer_hint": "Canva for Education / student offers.",
+      "notes": ""
+    },
+    {
+      "name": "ChatGPT / OpenAI",
+      "aliases": [
+        "chatgpt",
+        "openai",
+        "chatgpt plus"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "education_plan"
+      ],
+      "verify_urls": [
+        "https://openai.com",
+        "https://chatgpt.com"
+      ],
+      "offer_hint": "Check official OpenAI/ChatGPT education or student pages for current offer; label tier correctly.",
+      "notes": ""
+    },
+    {
+      "name": "Claude / Anthropic",
+      "aliases": [
+        "claude.ai",
+        "anthropic"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "education_plan"
+      ],
+      "verify_urls": [
+        "https://claude.ai",
+        "https://www.anthropic.com"
+      ],
+      "offer_hint": "Check official Anthropic/Claude education pages if any; do not invent.",
+      "notes": ""
+    },
+    {
+      "name": "Cursor",
+      "aliases": [
+        "cursor.sh",
+        "cursor ai"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "github_education",
+        "edu_verify",
+        "promo"
+      ],
+      "verify_urls": [
+        "https://cursor.com",
+        "https://education.github.com/pack"
+      ],
+      "offer_hint": "Check Cursor pricing + GitHub Education / student promos if listed.",
+      "notes": ""
+    },
+    {
+      "name": "Dashlane",
+      "aliases": [
+        "dashlane"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Password manager student offers on platforms.",
+      "notes": ""
+    },
+    {
+      "name": "DigitalOcean",
+      "aliases": [
+        "digital ocean"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "github_education",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://education.github.com/pack",
+        "https://www.digitalocean.com"
+      ],
+      "offer_hint": "Student Pack credits when listed.",
+      "notes": ""
+    },
+    {
+      "name": "Figma",
+      "aliases": [
+        "figma education"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.figma.com/education/"
+      ],
+      "offer_hint": "Education plan.",
+      "notes": ""
+    },
+    {
+      "name": "Final Cut / Logic via Apple Edu",
+      "aliases": [
+        "final cut student"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.apple.com/us-edu/store"
+      ],
+      "offer_hint": "Apple Education pricing pathway.",
+      "notes": ""
+    },
+    {
+      "name": "GitHub Copilot",
+      "aliases": [
+        "copilot"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "github_education"
+      ],
+      "verify_urls": [
+        "https://education.github.com",
+        "https://github.com/features/copilot"
+      ],
+      "offer_hint": "Student access typically via GitHub Education eligibility.",
+      "notes": ""
+    },
+    {
+      "name": "GitHub Student Developer Pack",
+      "aliases": [
+        "github education",
+        "github pack",
+        "student pack"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "github_education",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://education.github.com/pack"
+      ],
+      "offer_hint": "Free and discounted developer tools bundle \u2014 claim via GitHub Education.",
+      "notes": ""
+    },
+    {
+      "name": "Google Cloud for Education",
+      "aliases": [
+        "gcp education"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "campus"
+      ],
+      "verify_urls": [
+        "https://cloud.google.com/edu"
+      ],
+      "offer_hint": "Education credits / campus programs.",
+      "notes": ""
+    },
+    {
+      "name": "Google Gemini",
+      "aliases": [
+        "gemini advanced",
+        "google one ai"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "campus"
+      ],
+      "verify_urls": [
+        "https://gemini.google.com"
+      ],
+      "offer_hint": "Education / Google One student offers when published.",
+      "notes": ""
+    },
+    {
+      "name": "Grammarly",
+      "aliases": [
+        "grammarly premium"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com",
+        "https://www.grammarly.com"
+      ],
+      "offer_hint": "Student pricing via site/partners.",
+      "notes": ""
+    },
+    {
+      "name": "Heroku",
+      "aliases": [
+        "heroku"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "github_education"
+      ],
+      "verify_urls": [
+        "https://education.github.com/pack"
+      ],
+      "offer_hint": "Via Student Pack when partner active.",
+      "notes": ""
+    },
+    {
+      "name": "JetBrains",
+      "aliases": [
+        "intellij",
+        "pycharm",
+        "webstorm"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "github_education"
+      ],
+      "verify_urls": [
+        "https://www.jetbrains.com/community/education/",
+        "https://education.github.com/pack"
+      ],
+      "offer_hint": "Free educational licenses; also via Student Pack partners.",
+      "notes": ""
+    },
+    {
+      "name": "JetBrains Academy / Hyperskill",
+      "aliases": [
+        "hyperskill"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.jetbrains.com"
+      ],
+      "offer_hint": "Education offerings \u2014 verify site.",
+      "notes": ""
+    },
+    {
+      "name": "Mathematica",
+      "aliases": [
+        "wolfram"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "campus_license",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.wolfram.com/mathematica/"
+      ],
+      "offer_hint": "Campus or education pricing.",
+      "notes": ""
+    },
+    {
+      "name": "MATLAB",
+      "aliases": [
+        "mathworks"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "campus_license",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.mathworks.com/products/matlab/student.html"
+      ],
+      "offer_hint": "Prefer campus license first, then student suite.",
+      "notes": ""
+    },
+    {
+      "name": "Microsoft 365 Education",
+      "aliases": [
+        "office 365 student",
+        "microsoft 365"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "campus_license"
+      ],
+      "verify_urls": [
+        "https://www.microsoft.com/en-us/education"
+      ],
+      "offer_hint": "Often free via school; else education pricing.",
+      "notes": ""
+    },
+    {
+      "name": "Microsoft Copilot",
+      "aliases": [
+        "copilot microsoft"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "campus_license"
+      ],
+      "verify_urls": [
+        "https://www.microsoft.com/en-us/microsoft-365/copilot"
+      ],
+      "offer_hint": "Often via Microsoft 365 Education / campus.",
+      "notes": ""
+    },
+    {
+      "name": "Miro",
+      "aliases": [
+        "miro education"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://miro.com/education/"
+      ],
+      "offer_hint": "Education plan.",
+      "notes": ""
+    },
+    {
+      "name": "Namecheap",
+      "aliases": [
+        "namecheap"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "github_education"
+      ],
+      "verify_urls": [
+        "https://education.github.com/pack"
+      ],
+      "offer_hint": "Domain credits via Student Pack partners when active.",
+      "notes": ""
+    },
+    {
+      "name": "Norton / LifeLock",
+      "aliases": [
+        "norton"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Security suite student partner offers.",
+      "notes": ""
+    },
+    {
+      "name": "Notion",
+      "aliases": [
+        "notion ai"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "github_education",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.notion.com/product/notion-for-education",
+        "https://education.github.com/pack"
+      ],
+      "offer_hint": "Education plan.",
+      "notes": ""
+    },
+    {
+      "name": "Overleaf",
+      "aliases": [
+        "overleaf"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "campus",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.overleaf.com"
+      ],
+      "offer_hint": "Campus license or student plans \u2014 verify.",
+      "notes": ""
+    },
+    {
+      "name": "Sketch",
+      "aliases": [
+        "sketch app"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.sketch.com"
+      ],
+      "offer_hint": "Education license when offered.",
+      "notes": ""
+    },
+    {
+      "name": "Slack",
+      "aliases": [
+        "slack education"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://slack.com/help"
+      ],
+      "offer_hint": "Education discounts when offered \u2014 verify Slack education pages.",
+      "notes": ""
+    },
+    {
+      "name": "Spotify for Students",
+      "aliases": [
+        "spotify student"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "edu_verify",
+        "sheerid"
+      ],
+      "verify_urls": [
+        "https://www.spotify.com/student"
+      ],
+      "offer_hint": "Student plan (software/entertainment).",
+      "notes": ""
+    },
+    {
+      "name": "Zoom",
+      "aliases": [
+        "zoom education"
+      ],
+      "category": "software_ai_cloud",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "campus_license",
+        "edu_verify"
+      ],
+      "verify_urls": [
+        "https://www.zoom.com"
+      ],
+      "offer_hint": "Usually campus license.",
+      "notes": ""
+    },
+    {
+      "name": "Amtrak",
+      "aliases": [
+        "amtrak"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://www.amtrak.com"
+      ],
+      "offer_hint": "Student Advantage / youth fares when offered \u2014 verify Amtrak.",
+      "notes": ""
+    },
+    {
+      "name": "Enterprise",
+      "aliases": [
+        "enterprise rent-a-car"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Student rental offers via partners.",
+      "notes": ""
+    },
+    {
+      "name": "Greyhound",
+      "aliases": [
+        "greyhound"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://www.greyhound.com"
+      ],
+      "offer_hint": "Student / advance fares \u2014 verify site.",
+      "notes": ""
+    },
+    {
+      "name": "Hostelworld",
+      "aliases": [
+        "hostelworld"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.studentbeans.com"
+      ],
+      "offer_hint": "Student platform travel offers.",
+      "notes": ""
+    },
+    {
+      "name": "ISIC",
+      "aliases": [
+        "international student identity card"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://www.isic.org"
+      ],
+      "offer_hint": "Student ID card unlocking many partner discounts worldwide.",
+      "notes": ""
+    },
+    {
+      "name": "Lyft",
+      "aliases": [
+        "lyft"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://www.studentbeans.com",
+        "https://www.lyft.com"
+      ],
+      "offer_hint": "Occasional student promos.",
+      "notes": ""
+    },
+    {
+      "name": "Megabus",
+      "aliases": [
+        "megabus"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://us.megabus.com"
+      ],
+      "offer_hint": "Youth/student style fares vary.",
+      "notes": ""
+    },
+    {
+      "name": "StudentUniverse",
+      "aliases": [
+        "student universe"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://www.studentuniverse.com"
+      ],
+      "offer_hint": "Student travel agency \u2014 verify identity rules.",
+      "notes": ""
+    },
+    {
+      "name": "Uber",
+      "aliases": [
+        "uber rides"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://www.myunidays.com",
+        "https://www.uber.com"
+      ],
+      "offer_hint": "Uber One / student partner promos on platforms.",
+      "notes": ""
+    },
+    {
+      "name": "Zipcar",
+      "aliases": [
+        "zipcar"
+      ],
+      "category": "travel",
+      "countries": [
+        "US",
+        "UK",
+        "CA",
+        "AU",
+        "global"
+      ],
+      "partners": [
+        "unidays",
+        "studentbeans",
+        "edu_verify",
+        "isic"
+      ],
+      "verify_urls": [
+        "https://www.zipcar.com"
+      ],
+      "offer_hint": "Student membership rates common near campuses.",
+      "notes": ""
+    }
+  ]
+}
