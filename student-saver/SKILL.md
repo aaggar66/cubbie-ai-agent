@@ -1,6 +1,6 @@
 ---
 name: student-saver
-description: "Turns Cubbie into a student savings agent: builds a Student Wallet, looks up brand discounts (McDonald's, Amazon, AMC, Adobe), optimizes stackable student/coupon/card combinations into an effective price, watches deals with scheduled check-ins, and tracks semester savings. Use when the student says optimize my purchase, asks for a student discount at a store, wants a deal watch, card vs student discount help, savings dashboard, or missed Spotify/Adobe student plan savings."
+description: "Student savings agent for wallet, brand discounts, price stacking, deal watches, and semester totals. Use when the student says optimize my purchase, asks if a store has a student discount (McDonald's, Amazon, AMC, Adobe), wants card vs coupon help, a deal watch, savings dashboard, or missed Spotify/Adobe student plans."
 ---
 
 # StudentSaver (Cubbie Skill)
