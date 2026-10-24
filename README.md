@@ -4,9 +4,9 @@ Teach Cubbie a new trick: https://hackathon.cubbie.ai
 
 ## Student Discount Radar (primary)
 
-**Moment:** *Am I leaving money on the table — AI tools, Amazon, groceries, software, food?*
+**Moment:** *“Does McDonald’s have a student discount?”* — same for Amazon, AMC, Spotify, Adobe, groceries, etc.
 
-Cubbie searches **current official** student discounts across shopping, food, grocery, Amazon, travel, AI/models, software, and campus perks. It never invents coupon codes and never checks out for you.
+Bundled **200+ merchant index** (food, grocery, shopping, movie theatres, software/AI) + live web verification on UNiDAYS / Student Beans / official edu pages. No invented coupon codes.
 
 Folder: `student-discount-radar/`
 
@@ -17,8 +17,7 @@ Folder: `student-discount-radar/`
    ```text
    https://github.com/aaggar66/cubbie-ai-agent/tree/main/student-discount-radar
    ```
-   (repo root also works)  
-3. Reply **yes**, then try: `What student discounts am I missing for AI tools and Amazon?`
+3. Reply **yes**, then try: `Does McDonald's have a student discount?` or `AMC student tickets?`
 
 ## Also in this repo
 

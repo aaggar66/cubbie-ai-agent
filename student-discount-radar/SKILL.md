@@ -1,85 +1,103 @@
 ---
 name: student-discount-radar
-description: Finds current student discounts and free tiers for shopping, food, groceries, Amazon, travel, AI tools, software, cloud, and campus life. Use when the student asks about student discounts, .edu deals, GitHub Student Pack, AI or API credits, Amazon Prime Student, grocery or food coupons, free software, or whether they are missing savings.
+description: Looks up student discounts by brand (e.g. McDonald's, Amazon, AMC, Spotify) and by category across food, grocery, shopping, movie theatres, software, and AI tools using a bundled merchant dataset plus live web verification. Use when the student asks if a store has a student discount, searches a brand name for deals, or wants student savings on restaurants, groceries, shopping, movies, or software.
 ---
 
 # Student Discount Radar
 
-This Skill uses Cubbie's built-in capabilities. It has no scripts and needs no API key.
+Bundled merchant index + Cubbie web verification. No API key.
 
-It helps a student claim **real, currently available** student savings across everyday life and tools — not a stale list of fake promo codes.
+If the student texts a brand like "McDonald's", look it up in the dataset first, then confirm
+what is live on official / partner pages. Never invent coupon codes or guarantee a percent off.
 
 ## When to use
 
-- "What student discounts am I missing?"
-- "Any AI / ChatGPT / Claude / Cursor / API credits for students?"
-- "Amazon Prime Student, grocery, or food deals?"
-- "GitHub Student Pack / JetBrains / Adobe / Microsoft 365?"
-- "Student discounts near campus for shopping or restaurants"
+- "Does McDonald's have a student discount?"
+- "Amazon student deal?"
+- "AMC / Regal student tickets?"
+- "Any student discount for Spotify / Adobe / GitHub?"
+- "What grocery or food student discounts am I missing?"
 
-Do not invent coupon codes, prices, or eligibility. Do not buy or check out for the student.
-Do not ask for passwords, payment cards, or keys in the chat.
+Do not buy or check out for the student. Do not ask for passwords, cards, or keys in chat.
 
-## Categories to cover
+## Setup (first time only)
 
-When the student asks broadly ("everything", "what am I missing"), work through the checklist in
-`references/categories.md` (shopping, food, grocery, Amazon, travel, AI/models, software, cloud/dev,
-campus, finance). When they name one area, search that area first, then offer one related category.
+No packages required. Scripts use the Python standard library only.
 
 ## Steps
 
-1. Learn context (one question at a time; suggest a default they can accept with "yes"):
-   - Country / campus city (default: United States if unclear)
-   - School email domain if useful (e.g. `.edu`) — optional
-   - Already claimed? (GitHub Student Pack, Prime Student, etc.)
-   Remember answers with Cubbie's **Memory** capability.
+1. Remember country / campus city with Cubbie's **Memory** when the student names them
+   (default country: United States). Ask one clarifying question only if the brand is ambiguous.
 
-2. Search with Cubbie's **Web** capability for **official** student offers only:
-   - Prefer vendor education pages, GitHub Education, UNiDAYS / Student Beans / SheerID partner pages,
-     university bookstore or student-affairs discount pages, and well-known student programs.
-   - Read the page you cite. Note: what is free or % off, who qualifies, verify method (.edu, SheerID,
-     Student Pack), and expiry if shown.
-   - Skip forum "working codes", random coupon blogs, and anything that asks to DM a code.
+2. Run the local lookup from this Skill's folder (always do this for a named brand):
 
-3. Build a shortlist (at most five in the text thread). For each deal, one or two lines:
-   - Name — what you get
-   - Who qualifies + how to verify
+   ```bash
+   python3 scripts/lookup.py --query "<brand or product>" --limit 5
+   ```
+
+   Examples: `--query "mcdonalds"`, `--query "amc"`, `--query "adobe"`.
+
+   Browse a whole category:
+
+   ```bash
+   python3 scripts/lookup.py --category food_restaurants --limit 10
+   python3 scripts/lookup.py --list-categories
+   ```
+
+   Categories: `food_restaurants`, `grocery`, `shopping`, `movies_entertainment`,
+   `software_ai_cloud`, `travel`.
+
+   Dry run without relying on the full file:
+
+   ```bash
+   python3 scripts/lookup.py --sample --query mcdonalds
+   ```
+
+3. **Verify live** with Cubbie's **Web** capability before promising a deal:
+   - Open the match's `verify_urls` and the relevant `partner_hubs` (UNiDAYS, Student Beans,
+     SheerID, GitHub Education, Amazon Student, etc.).
+   - Read what the page says *today*: percent off, free item, ticket price, eligibility, country.
+   - If the US brand is franchise-based (many restaurants), say the national policy may vary and
+     suggest asking in-store with student ID when the dataset notes that.
+   - Skip random coupon blogs and "working codes" posts.
+
+4. Reply with at most three matches in the text thread:
+   - Brand — what the verified page offers (or "no live official offer found")
+   - How to unlock (UNiDAYS, Student Beans, .edu, SheerID, student ID in store)
    - Official link on its own line
-   Lead with highest-value / easiest claims first (often: GitHub Student Pack, Prime Student, Google/Microsoft
-   education, major AI student plans, local grocery/food if they asked).
-   If more than five are worth keeping, make a one-page PDF checklist with Cubbie's **Documents** capability,
-   send it, and text only the top three plus "full list in the PDF".
+   If the student asked "everything in grocery/food/movies/software", run category lookups, verify
+   the top items, and put the long list in a PDF via Cubbie's **Documents** capability.
 
-4. For AI / API / token discounts specifically:
-   - Search current student, education, startup, or research credit programs for major model and cloud providers.
-   - Say clearly if an offer is "student", "educator", "research", or "startup" — do not blur them.
-   - If usage billing is involved, offer a simple monthly budget reminder after they claim a plan.
+5. Offer next steps one at a time:
+   - "Want me to open the claim page in the browser?"
+   - "Mark this brand as already claimed?"
+   - "Weekly new-deals check? Sunday 5 pm?"
 
-5. Offer next actions, one at a time:
-   - "Want the official claim link for the top one?"
-   - "Mark these as already claimed so I don't repeat them?"
-   - "Weekly check for new student deals? Sunday 5 pm?"
+6. Browser claim (only after yes): open the official URL with Cubbie's **Browser** capability.
+   Hand the browser to the student for login, SheerID, payment, or 2FA. Never pay for them.
 
-6. Claiming / buying (only with the student's yes):
-   - Open the official page with Cubbie's **Browser** capability if they want help walking through signup.
-   - For payment, 2FA, or identity verify (SheerID, campus login), hand the browser to the student.
-   - Never enter card details or passwords for them. Never pay.
+7. Recurring check-in (only after they pick a time): re-check 1–2 saved brands or categories and
+   text only changes.
 
-7. Recurring check-in (only after they pick a time):
-   Create a scheduled check-in that re-searches 1–2 categories they care about and texts only **new or ending-soon**
-   offers, skipping anything Memory says they already claimed.
+## Dataset
+
+`assets/merchants.json` is a searchable index of **200+** merchants across food, grocery, shopping,
+movie theatres, software/AI, and travel. It stores *where to look*, not forever-fixed coupon codes.
+`references/categories.md` explains category coverage. Expand the JSON when you add brands; keep
+`offer_hint` honest and code-free.
 
 ## Replies
 
-Keep each reply to a few short lines, plain text, no Markdown headings or tables.
-Lead with the best deal. Put every official link on its own line.
-Ask one question at a time. Suggest a default they can accept with "yes".
-If a deal cannot be verified on an official page, say so and omit it.
+Short plain-text lines. Lead with the brand they asked about. Links on their own line.
+If lookup exit code 3 (no matches): say you have no index row yet, still search UNiDAYS + Student
+Beans + the brand's education page on the web, then offer to remember the result.
 
 ## When something fails
 
-- Nothing found for a category: say so in one line; offer a nearby category or a different country.
-- Page will not load: skip that vendor; continue with verified ones.
-- Eligibility unclear: say "verify on their site" and link the official page; do not promise approval.
-- Outside Cubbie (no Web): give the category checklist from `references/categories.md` so the student can search
-  themselves; do not invent live offers.
+| Situation | What to text |
+| --- | --- |
+| Exit code 2 / missing file | Skill files incomplete; reinstall from the GitHub link |
+| Exit code 3 / no matches | No index hit — searching the web/partner hubs anyway |
+| Web page disagrees with hint | Trust the live page; say the dataset tip was outdated |
+| No official student offer | "No official student discount I can verify right now" + suggest asking in-store if relevant |
+| Outside Cubbie | Run `python3 scripts/lookup.py --sample --query ...` locally; do not invent live prices |
