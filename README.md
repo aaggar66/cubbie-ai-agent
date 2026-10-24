@@ -1,35 +1,33 @@
-# Internship Radar (Cubbie Hackathon · Track 1)
+# Cubbie Skills (Hackathon · Track 1)
 
-A Cubbie Skill for the moment: *three internship apps close Friday — and you just found out.*
+Teach Cubbie a new trick: https://hackathon.cubbie.ai
 
-Cubbie searches public postings that fit the student's major, tracks close dates, sets reminders (with consent), and drafts cover letters. It never applies or sends email without an explicit yes.
+## Student Discount Radar (primary)
 
-## Install on Cubbie
+**Moment:** *Am I leaving money on the table — AI tools, Amazon, groceries, software, food?*
 
-1. Make this repository **public** on GitHub.
-2. Text Cubbie the repository link (or the `internship-radar` folder link).
-3. Reply **yes** when Cubbie asks before fetching.
-4. Try: `3 internships close Friday, find ones that still fit CS`
+Cubbie searches **current official** student discounts across shopping, food, grocery, Amazon, travel, AI/models, software, and campus perks. It never invents coupon codes and never checks out for you.
 
-Cubbie: https://cubbie.ai
+Folder: `student-discount-radar/`
 
-## What's in the repo
+### Install on Cubbie
 
-```text
-internship-radar/
-  SKILL.md          # the Skill Cubbie installs
-```
+1. Repo must be **public** on GitHub: https://github.com/aaggar66/cubbie-ai-agent  
+2. Text Cubbie:
+   ```text
+   https://github.com/aaggar66/cubbie-ai-agent/tree/main/student-discount-radar
+   ```
+   (repo root also works)  
+3. Reply **yes**, then try: `What student discounts am I missing for AI tools and Amazon?`
 
-No scripts, no API keys, no backend. Cubbie uses its own web search, reminders, documents, memory, and optional Gmail drafts.
+## Also in this repo
+
+- `internship-radar/` — finds internships, tracks close dates, drafts cover letters (consent before apply/send)
 
 ## Local check
 
-From a clone of the [Cubbie Hackathon Kit](https://github.com/imaginix-inc/cubbie-hackathon-kit):
-
 ```bash
-python3 skills/cubbie-skill-creator/scripts/validate_cubbie_skill.py path/to/internship-radar
+python3 path/to/cubbie-hackathon-kit/skills/cubbie-skill-creator/scripts/validate_cubbie_skill.py student-discount-radar
 ```
 
-## Hackathon
-
-Teach Cubbie a new trick: https://hackathon.cubbie.ai
+Cubbie: https://cubbie.ai
