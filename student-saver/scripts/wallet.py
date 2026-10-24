@@ -56,6 +56,9 @@ def write_json(path: Path, data) -> None:
 def empty_wallet() -> dict:
     return {
         "university": None,
+        "school_domain": None,  # e.g. asu.edu, from the school email or Canvas address
+        "campus": None,
+        "level": None,  # undergraduate | graduate | phd
         "country": "US",
         "programs": [],  # UNiDAYS, Student Beans, Prime Student, GitHub Student, ...
         "cards": [],  # nicknames only
@@ -74,6 +77,14 @@ def cmd_set(args) -> None:
     w = read_json(path_wallet(args.sample), empty_wallet())
     if args.university is not None:
         w["university"] = args.university
+    if args.school_domain is not None:
+        from school import normalize_domain  # same scripts/ folder
+
+        w["school_domain"] = normalize_domain(args.school_domain)
+    if args.campus is not None:
+        w["campus"] = args.campus
+    if args.level is not None:
+        w["level"] = args.level
     if args.country is not None:
         w["country"] = args.country
     if args.program:
@@ -194,6 +205,9 @@ def main() -> None:
 
     s = sub.add_parser("set", help="Update Student Wallet fields")
     s.add_argument("--university")
+    s.add_argument("--school-domain", help="asu.edu, or the student's school email / Canvas address")
+    s.add_argument("--campus")
+    s.add_argument("--level", choices=["undergraduate", "graduate", "phd"])
     s.add_argument("--country")
     s.add_argument("--program", action="append", default=[])
     s.add_argument("--card", action="append", default=[])

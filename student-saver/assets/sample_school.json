@@ -1,0 +1,24 @@
+{
+  "domain": "example.edu",
+  "note": "SAMPLE data for --sample runs only. Not real perks.",
+  "perks": [
+    {
+      "name": "Campus AI assistant",
+      "category": "software_ai",
+      "summary": "Sample: an AI chat tool the school licenses for all students",
+      "cost": "free",
+      "how_to_claim": "Sign in with the school account",
+      "url": "https://example.edu/ai-tools",
+      "checked": "2026-10-24"
+    },
+    {
+      "name": "Student transit pass",
+      "category": "transit",
+      "summary": "Sample: discounted yearly bus and rail pass",
+      "cost": "$150/year",
+      "how_to_claim": "Buy on the parking and transportation site",
+      "url": "https://example.edu/transit",
+      "checked": "2026-10-24"
+    }
+  ]
+}

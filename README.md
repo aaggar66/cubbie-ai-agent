@@ -16,6 +16,7 @@ https://github.com/aaggar66/cubbie-ai-agent/tree/main/student-saver
 
 Reply **yes**, then try:
 
+- `What does ASU give me for free?`
 - `Build my student wallet — ASU, Prime Student, Chase Freedom`
 - `Does McDonald's have a student discount?`
 - `Optimize my purchase: $199 headphones, 10% student, 15% coupon, 5% card — don't stack student+coupon`
@@ -28,6 +29,8 @@ Reply **yes**, then try:
 student-saver/
   SKILL.md
   assets/merchants.json      # 200+ brands (food, grocery, shopping, movies, software)
+  references/schools/        # official starting pages per school (asu.edu.md)
+  scripts/school.py          # school-first: domain, official-site searches, verified school perks
   scripts/lookup.py          # brand / category search
   scripts/optimize.py        # stackability + effective price
   scripts/wallet.py          # wallet, savings log, deal watches
@@ -36,6 +39,7 @@ student-saver/
 ## Local checks
 
 ```bash
+python3 student-saver/scripts/school.py --sample show --domain asu.edu
 python3 student-saver/scripts/lookup.py --sample --query mcdonalds
 python3 student-saver/scripts/optimize.py --sample
 HOME=$(mktemp -d) python3 student-saver/scripts/wallet.py --sample set --university "Demo U" --card "Chase Freedom"
