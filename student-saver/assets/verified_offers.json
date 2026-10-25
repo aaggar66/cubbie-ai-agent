@@ -1,0 +1,619 @@
+{
+  "version": 1,
+  "checked": "2026-10-24",
+  "about": "US student offers read on each brand's own website (or its official help or terms pages) on the checked date. status: verified = read on the official page; not_available = the official page says it ended; unverified = the official page could not be read or did not state the offer. Offers change: reopen source_url before telling a student, and never use an unverified entry as fact.",
+  "offers": [
+    {
+      "brand": "Adobe Creative Cloud (students)",
+      "aliases": [
+        "adobe",
+        "creative cloud",
+        "photoshop",
+        "illustrator",
+        "premiere",
+        "acrobat"
+      ],
+      "category": "software_ai_cloud",
+      "status": "unverified",
+      "offer": "Student/teacher pricing on Creative Cloud Pro (20+ apps incl. Photoshop, Illustrator, Acrobat Pro, Premiere); discount amount not rendered on page",
+      "eligibility": null,
+      "verification": null,
+      "price": null,
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "yes",
+      "countries": null,
+      "source_url": "https://www.adobe.com/products/pricing-info/ccste-pricing-info.html",
+      "checked": "2026-10-24",
+      "note": "Adobe student pages (adobe.com/creativecloud/buy/students.html, adobe.com/education/students.html, ccste-pricing-info.html, offer-terms/ccm-ste-introductory) loaded only unfilled template placeholders (e.g. {{percentage-discount-ste-puf}}); no price, discount %, eligibility or verification text was readable. auto_renews 'yes' comes from the generic membership terms on ccste-pricing-info.html (annual contract renews automatically until cancelled). A US$19.99/mo first-year figure appeared only in a search snippet, not on a fetched page, so it is not used."
+    },
+    {
+      "brand": "GitHub Student Developer Pack",
+      "aliases": [
+        "github student",
+        "student pack",
+        "github education",
+        "github pack"
+      ],
+      "category": "software_ai_cloud",
+      "status": "verified",
+      "offer": "Free bundle of partner offers for verified students, e.g. GitHub Pro while a student, Copilot Student, $100 Azure credit (18+), free .me/.TECH domains for 1 year, Notion Education plan with extra AI, Heroku $13/month credit for 24 months",
+      "eligibility": "Enrolled in a degree- or diploma-granting program (high school, college, university, or homeschool), owns a GitHub personal account, at least 13 years old",
+      "verification": "GitHub Education application with proof of current student status (school ID with current enrollment date, class schedule, transcript, or enrollment letter); academic email required if your school's applicants have verified with one",
+      "price": "Free",
+      "price_after": null,
+      "duration": "While you are a student (individual partner offers have their own durations)",
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://education.github.com/pack",
+      "checked": "2026-10-24",
+      "note": "Eligibility and verification read from https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student. Partner offers vary individually; no country restrictions stated on pages read."
+    },
+    {
+      "brand": "GitHub Copilot (students)",
+      "aliases": [
+        "copilot",
+        "github copilot"
+      ],
+      "category": "software_ai_cloud",
+      "status": "verified",
+      "offer": "Copilot Student plan: free access to Copilot features for verified students, including unlimited code completions, an allowance of GitHub AI Credits, and limited chat/agent usage with auto model selection only",
+      "eligibility": "Verified students on GitHub Education",
+      "verification": "GitHub Education student verification; eligibility is re-evaluated every month",
+      "price": "Free",
+      "price_after": null,
+      "duration": "While eligibility is maintained (re-checked monthly)",
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://docs.github.com/en/copilot/how-tos/manage-your-account/free-access-with-copilot-student",
+      "checked": "2026-10-24",
+      "note": "Plan details also read on https://docs.github.com/en/copilot/get-started/plans and https://education.github.com/pack. Students no longer get 'Copilot Pro' free; per docs, free Copilot Pro is for verified teachers and popular OSS maintainers. Activation can take several days after verification; docs warn not to buy a paid plan in the meantime."
+    },
+    {
+      "brand": "JetBrains (free student licenses)",
+      "aliases": [
+        "jetbrains",
+        "intellij",
+        "pycharm",
+        "webstorm"
+      ],
+      "category": "software_ai_cloud",
+      "status": "verified",
+      "offer": "Free JetBrains Student Pack: IntelliJ IDEA Ultimate, ReSharper and all other JetBrains IDEs and .NET tools; not for commercial use. Graduates get 40% off a personal subscription for 2 years after the student license expires",
+      "eligibility": "Students at accredited institutions (high schools, colleges, universities) enrolled in a program of one or more years of full-time study",
+      "verification": null,
+      "price": "Free",
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://sales.jetbrains.com/hc/en-gb/articles/207241195-Do-you-offer-free-educational-licenses-for-students-and-teachers",
+      "checked": "2026-10-24",
+      "note": "Main pages jetbrains.com/student and jetbrains.com/academy/student-pack loaded empty (JS-rendered), so offer facts come from JetBrains' official sales FAQ (updated 7 Jan 2026) and the eligibility FAQ https://sales.jetbrains.com/hc/en-gb/articles/11557849416594 (updated 20 Oct 2026). Verification method and license length not stated on pages read."
+    },
+    {
+      "brand": "Notion (education/student plan)",
+      "aliases": [
+        "notion"
+      ],
+      "category": "software_ai_cloud",
+      "status": "verified",
+      "offer": "Free Education Plan for a one-member workspace: unlimited pages/blocks, file uploads, extra site customization/publishing, 30-day version history",
+      "eligibility": "Students or educators at an accredited college or university with a school email; K-12 students/educators and personal-email accounts are not eligible",
+      "verification": "School email (must be the account's primary email); student IDs or other documents are not accepted; re-verify once a year",
+      "price": "Free",
+      "price_after": null,
+      "duration": "No set end date while you re-verify yearly with a valid education email",
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://www.notion.com/product/notion-for-education",
+      "checked": "2026-10-24",
+      "note": "Each school email can claim the offer once, for one workspace. Separate free Education Plan exists for volunteer student organizations at select verified institutions. Institution recognition is per the WHED; no country list stated."
+    },
+    {
+      "brand": "Figma (education)",
+      "aliases": [
+        "figma",
+        "figjam"
+      ],
+      "category": "software_ai_cloud",
+      "status": "verified",
+      "offer": "Free Education plan giving access to the Figma Professional tier (higher ed/bootcamps), including Figma's AI toolkit for eligible education users; Figma and FigJam stated as 100% free for students and educators",
+      "eligibility": "Students or educators over 13 in a structured classroom (high school, university, post-grad, trade school, college, online course, bootcamp, workshop, design/coding academy); under-13 use requires a school agreement",
+      "verification": null,
+      "price": "Free",
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://www.figma.com/education/",
+      "checked": "2026-10-24",
+      "note": "Page says users sign up at figma.com/education/apply and verify education status, but does not name the verification method; the apply page returned HTTP 403. Duration/re-verification not stated."
+    },
+    {
+      "brand": "Autodesk (education/students)",
+      "aliases": [
+        "autodesk",
+        "autocad",
+        "fusion 360",
+        "revit",
+        "maya"
+      ],
+      "category": "software_ai_cloud",
+      "status": "verified",
+      "offer": "Education plan: free one-year, single-user access to Autodesk software and services available via the Education Community, for learning/research only (no commercial use); install on up to 3 devices",
+      "eligibility": "Students meeting the minimum age requirement enrolled at a qualified (government-accredited) educational institution; also certain homeschoolers, thesis/master's work, and Autodesk competition entrants; training-center/retraining participants not eligible",
+      "verification": "SheerID verification with proof of enrollment",
+      "price": "Free",
+      "price_after": null,
+      "duration": "One year, renewable annually while eligible",
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://www.autodesk.com/support/account/education/students-educators/overview",
+      "checked": "2026-10-24",
+      "note": "Eligibility details from https://www.autodesk.com/support/account/education/students-educators/eligibility. Minimum age not specified on pages read. Heavy cloud-service use may be restricted. autodesk.com/education/students was too large to fetch."
+    },
+    {
+      "brand": "Google AI Pro (students offer)",
+      "aliases": [
+        "google ai pro",
+        "gemini",
+        "google one"
+      ],
+      "category": "software_ai_cloud",
+      "status": "verified",
+      "offer": "Free Google AI Pro student plan for 1 year: 4x higher Gemini usage limits, 5 TB storage, Gemini Spark, Gemini Omni access",
+      "eligibility": "Eligible U.S. college students ages 18+; new users and students whose 2025 AI Pro trial expired can qualify",
+      "verification": null,
+      "price": "Free for 1 year",
+      "price_after": "$19.99/month",
+      "duration": "1 year; redeem by December 31, 2026",
+      "auto_renews": "yes",
+      "countries": "United States",
+      "source_url": "https://gemini.google/students/",
+      "checked": "2026-10-24",
+      "note": "Valid payment method required at sign-up; auto-charges $19.99/month after the trial unless cancelled. Eligibility must be re-verified each year, but the verification method is not stated on the page. one.google.com/ai-student redirected to a Google login and could not be read."
+    },
+    {
+      "brand": "Kiro (students)",
+      "aliases": [
+        "kiro"
+      ],
+      "category": "software_ai_cloud",
+      "status": "verified",
+      "offer": "Up to 1 year of Kiro access: 1,000 Kiro credits each month for 12 months; unused credits don't roll over; extra credits can't be purchased during the period",
+      "eligibility": "18 or older, currently enrolled at a participating university, Kiro account created with a valid participating-university email",
+      "verification": "Participating-university email; proof of enrollment may be requested",
+      "price": "Free",
+      "price_after": null,
+      "duration": "12 months (Benefit Period)",
+      "auto_renews": "no",
+      "countries": null,
+      "source_url": "https://kiro.dev/students/terms/",
+      "checked": "2026-10-24",
+      "note": "kiro.dev/students itself showed only testimonials (no offer text); facts come from the official Terms (last updated September 8, 2026). After the period you become a Free Tier user under Free Tier limits (no paid renewal stated). Only participating universities qualify; the university/country list was not shown on pages read. AWS may change or end the program at any time."
+    },
+    {
+      "brand": "Cursor (students)",
+      "aliases": [
+        "cursor"
+      ],
+      "category": "software_ai_cloud",
+      "status": "not_available",
+      "offer": null,
+      "eligibility": null,
+      "verification": null,
+      "price": null,
+      "price_after": "$20/month (legacy Pro) for existing student-discount holders after their year ends",
+      "duration": null,
+      "auto_renews": "yes",
+      "countries": null,
+      "source_url": "https://cursor.com/help/account-and-billing/student-discount",
+      "checked": "2026-10-24",
+      "note": "Cursor stopped new sign-ups for its legacy student discount on June 25, 2026 (cited fraud). Existing holders keep their rate until the plan expires, then it continues at the regular rate unless cancelled. Alternatives stated: undergrads can get credits/discounts at on-campus and online events starting this fall; master's/PhD students, researchers and educators can request credits via a form. cursor.com/students shows no specific offer."
+    },
+    {
+      "brand": "Spotify Premium Student",
+      "aliases": [
+        "spotify"
+      ],
+      "category": "movies_entertainment",
+      "status": "verified",
+      "offer": "Discounted Spotify Premium for students, bundled with Hulu (With Ads) at no extra cost; first month free.",
+      "eligibility": "Eligible college/university students whose school appears in the SheerID verification form; discount lasts up to 4 years with re-verification every 12 months.",
+      "verification": "SheerID (school portal login or proof-of-enrollment upload)",
+      "price": "$6.99/month after 1 free month",
+      "price_after": null,
+      "duration": "Up to 4 years (renew and reverify every 12 months)",
+      "auto_renews": "not stated",
+      "countries": "US (spotify.com/us page); support page says students abroad can use it if account country matches study country",
+      "source_url": "https://www.spotify.com/us/student/",
+      "checked": "2026-10-24",
+      "note": "Eligibility/verification/duration read from https://support.spotify.com/us/article/premium-student/. Pages say 'cancel anytime' but do not explicitly state auto-renewal or the post-student price."
+    },
+    {
+      "brand": "Apple Music (student)",
+      "aliases": [
+        "apple music"
+      ],
+      "category": "movies_entertainment",
+      "status": "verified",
+      "offer": "Apple Music Student Plan at a discounted monthly rate with the same features as Individual, plus Apple Music Classical; Apple TV content included for a limited time.",
+      "eligibility": "Students in an associate, bachelor's, post-graduate or equivalent higher-education course at a college or university.",
+      "verification": "In-app student status verification using student ID and student email; reverify once a year. Verification provider not named on the pages read.",
+      "price": "$6.99/month",
+      "price_after": "Continues at the Individual price after four years (Individual listed at $11.99/month on the same page)",
+      "duration": "Up to four years while you remain a student",
+      "auto_renews": "not stated",
+      "countries": "US (en-us pages read); full country list not stated",
+      "source_url": "https://www.apple.com/apple-music/",
+      "checked": "2026-10-24",
+      "note": "Eligibility, verification steps and Apple TV perk read from https://support.apple.com/en-us/106008. The page says the plan continues at the Individual price after four years; it does not use the word renew. Free trial mentioned but its length is not stated for students."
+    },
+    {
+      "brand": "YouTube Premium (student)",
+      "aliases": [
+        "youtube",
+        "youtube premium",
+        "youtube music"
+      ],
+      "category": "movies_entertainment",
+      "status": "unverified",
+      "offer": "Discounted student membership for YouTube Premium or YouTube Music Premium (same benefits, lower rate).",
+      "eligibility": "Enrolled at a SheerID-approved higher education institution in a supported location; up to 4 consecutive years with yearly re-verification.",
+      "verification": "SheerID",
+      "price": null,
+      "price_after": null,
+      "duration": "Up to 4 consecutive years",
+      "auto_renews": "not stated",
+      "countries": "United States listed among many supported locations",
+      "source_url": "https://support.google.com/youtube/answer/9158808?co=GENIE.Platform%3DDesktop&hl=en",
+      "checked": "2026-10-24",
+      "note": "youtube.com/premium/student and /premium/student/inapp loaded empty (only page title returned), so price could not be read. Details come from YouTube's official help center on support.google.com, which is outside the youtube.com domain specified; marked unverified for that reason."
+    },
+    {
+      "brand": "Amazon Prime Student",
+      "aliases": [
+        "amazon",
+        "prime student",
+        "amazon prime",
+        "prime"
+      ],
+      "category": "shopping",
+      "status": "unverified",
+      "offer": null,
+      "eligibility": null,
+      "verification": null,
+      "price": null,
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://www.amazon.com/amazonprime?planOptimizationId=WLPStudentMonthlyEligiblePlans",
+      "checked": "2026-10-24",
+      "note": "All amazon.com fetches failed (HTTP 429 on amazonprime, primestudent and qualifynow; HTTP 403 on help pages). Search snippets from amazon.com suggest the program is now branded 'Prime for Young Adults', but this was not read on the page and is not counted."
+    },
+    {
+      "brand": "Peacock (student)",
+      "aliases": [
+        "peacock"
+      ],
+      "category": "movies_entertainment",
+      "status": "verified",
+      "offer": "Peacock Premium at a student discount for the first 12 months.",
+      "eligibility": "18+, enrolled in an undergraduate or advanced degree program at a Title IV-accredited US college/university, US resident, valid payment method required.",
+      "verification": "SheerID (school email and other info); yields a one-time promo code. Annual verification required.",
+      "price": "$6.99/month for 12 months",
+      "price_after": "$12.99/month or then-current retail price (+tax)",
+      "duration": "12 months; may renew at then-current student rate if still verified",
+      "auto_renews": "yes",
+      "countries": "United States (including territories, commonwealths and possessions)",
+      "source_url": "https://www.peacocktv.com/student",
+      "checked": "2026-10-24",
+      "note": "Existing paid subscribers may need to cancel before redeeming."
+    },
+    {
+      "brand": "Paramount+ (student)",
+      "aliases": [
+        "paramount",
+        "paramount plus",
+        "paramount+"
+      ],
+      "category": "movies_entertainment",
+      "status": "verified",
+      "offer": "50% off the regular price of any Paramount+ plan for the first 12 months.",
+      "eligibility": "Verified students, 18+.",
+      "verification": "Student verification required annually; provider not named on the page.",
+      "price": null,
+      "price_after": "Then-regular price after the first 12 months",
+      "duration": "First 12 months",
+      "auto_renews": "yes",
+      "countries": "US only",
+      "source_url": "https://www.paramountplus.com/student/",
+      "checked": "2026-10-24",
+      "note": "Page states 50% off but gives no dollar amounts. No refunds; cancel effective at end of billing period."
+    },
+    {
+      "brand": "DoorDash (DashPass for Students)",
+      "aliases": [
+        "doordash",
+        "dashpass"
+      ],
+      "category": "food_restaurants",
+      "status": "verified",
+      "offer": "Discounted Student DashPass: $0 delivery fees and reduced service fees on eligible orders, 5% credit back on eligible pickup, discounts on eligible Lyft rides.",
+      "eligibility": "Customers enrolled in a university or post-secondary school who pass verification; one account per student; new DashPass members.",
+      "verification": "SheerID (name, school, birth date, student .edu email; document upload if auto-verification fails)",
+      "price": "$4.99/month or $48/year",
+      "price_after": "$9.99/month (plus tax) once no longer verified as a student",
+      "duration": "As long as SheerID verifies student status",
+      "auto_renews": "yes",
+      "countries": "US, Canada, Australia, New Zealand",
+      "source_url": "https://help.doordash.com/en-us/consumers/article/dashpass-for-students",
+      "checked": "2026-10-24",
+      "note": "The free 1-year Student DashPass promo only applied to sign-ups Aug 17 to Oct 12, 2026, so it has ended as of today (per https://help.doordash.com/en-us/consumers/article/free-student-dashpass-faqs). Read on DoorDash's help center (help.doordash.com); doordash.com/dashpass/students returned 404. Benefits require a minimum subtotal ($12 restaurants/convenience, $25 grocery in US)."
+    },
+    {
+      "brand": "Uber One for Students",
+      "aliases": [
+        "uber",
+        "uber one",
+        "uber eats"
+      ],
+      "category": "food_restaurants",
+      "status": "verified",
+      "offer": "Student-priced Uber One: 5% back in Uber One credits on eligible rides, $0 delivery fee and up to 10% off eligible Uber Eats orders meeting minimums.",
+      "eligibility": "Students aged 18+ who pass student verification.",
+      "verification": "SheerID (name, birthday, school email, university; may request transcripts/schedules/tuition receipts)",
+      "price": "$4.99/month or $48/year",
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "yes",
+      "countries": "US (uber.com/us page); prices read from US-dollar help article",
+      "source_url": "https://help.uber.com/riders/article/uber-one-for-students?nodeId=1054d70b-fcfa-40c7-853e-1d9f9e1fb3b9",
+      "checked": "2026-10-24",
+      "note": "Auto-renewal and 18+ also confirmed on https://www.uber.com/us/en/uber-one/student/. Help article does not label itself US explicitly, but quotes USD pricing. Free trial for first-time members is mentioned without a stated length. SheerID retains info up to 2 years to support annual renewal."
+    },
+    {
+      "brand": "Grubhub (Grubhub+ Student)",
+      "aliases": [
+        "grubhub",
+        "grubhub+"
+      ],
+      "category": "food_restaurants",
+      "status": "unverified",
+      "offer": "Free Grubhub+ for students through college at partner campuses ($0 delivery fees, lower service fees, 5% back on eligible off-campus pickup).",
+      "eligibility": null,
+      "verification": null,
+      "price": null,
+      "price_after": null,
+      "duration": "Through college (as stated on campus partner page)",
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://onsite.grubhub.com/who-we-serve/college-campuses/off-campus/",
+      "checked": "2026-10-24",
+      "note": "grubhub.com/plus/student and grubhub.com returned no readable content. The only official page read is a B2B page aimed at universities joining Grubhub's off-campus dining program; it does not state consumer eligibility or how students verify, and implies the perk is tied to partner campuses. University sites mention campus card or student email verification, but those are not official Grubhub pages."
+    },
+    {
+      "brand": "Headspace (student)",
+      "aliases": [
+        "headspace"
+      ],
+      "category": "software_ai_cloud",
+      "status": "verified",
+      "offer": "Discount on the annual Headspace subscription for qualifying students, followed by a one-year Alumni Plan at a smaller discount.",
+      "eligibility": "Full- or part-time students 18+ at a post-secondary program or university in the US, UK, Australia, Canada, France, Germany, Portugal or Spain; limited to colleges Headspace determines qualify.",
+      "verification": "SheerID (instant verification, or document upload for manual review)",
+      "price": null,
+      "price_after": "After student status ends: one-year Alumni Plan at a less-discounted price, then non-discounted annual Paid Subscription",
+      "duration": "As long as student verification is maintained; re-verified at each renewal",
+      "auto_renews": "yes",
+      "countries": "United States, UK, Australia, Canada, France, Germany, Portugal, Spain",
+      "source_url": "https://www.headspace.com/studentplan",
+      "checked": "2026-10-24",
+      "note": "Verification provider, auto-renewal and Alumni Plan read from https://www.headspace.com/student-discount-terms-and-conditions. No price on either page read; the help center (help.headspace.com) returned 403. Category chosen as closest fit (app subscription)."
+    },
+    {
+      "brand": "Apple Education Store",
+      "aliases": [
+        "apple",
+        "mac",
+        "macbook",
+        "ipad",
+        "apple education"
+      ],
+      "category": "shopping",
+      "status": "verified",
+      "offer": "Education Pricing on Mac, iPad, Apple Watch and select accessories through the U.S. Apple Store for Education, with yearly purchase quantity limits (e.g. one MacBook, two iPads per year).",
+      "eligibility": "Students attending or accepted into a U.S./Puerto Rico higher education institution, parents buying for such a student, higher-ed faculty and staff, and K-12 employees including homeschool teachers.",
+      "verification": "Apple says you may need to verify with an active school email or other documentation at checkout; method varies by country.",
+      "price": null,
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": "United States and Puerto Rico (U.S. Store for Education)",
+      "source_url": "https://www.apple.com/us-edu/shop/browse/open/salespolicies/edu",
+      "checked": "2026-10-24",
+      "note": "Eligibility and quantity limits read on the sales policy page; the verification wording comes from the FAQ at https://www.apple.com/us-edu/shop/buy-mac/macbook-air. The main page https://www.apple.com/us-edu/store loaded only Apple Card legal text, so no education prices or discount amounts could be read. The back-to-school promo page redirected away, so gift-card promos are not confirmed as current. Apple says prices can change and it audits education purchases."
+    },
+    {
+      "brand": "Samsung Education Offers Program",
+      "aliases": [
+        "samsung",
+        "galaxy"
+      ],
+      "category": "shopping",
+      "status": "verified",
+      "offer": "Exclusive Samsung Offer Program pricing for verified students and educators on samsung.com; sign-in required, limited-time prices, cannot be combined with other offers.",
+      "eligibility": "Members of qualified groups including Student or Teacher, as verified by Samsung/ID.me.",
+      "verification": "Samsung account registered with a qualified email, or eligibility confirmed through ID.me.",
+      "price": null,
+      "price_after": null,
+      "duration": "Prices described as available for a limited time only",
+      "auto_renews": "not stated",
+      "countries": "United States (Samsung US site; prices not available at retail stores or other sites)",
+      "source_url": "https://www.samsung.com/us/shop/offer-program/education/",
+      "checked": "2026-10-24",
+      "note": "Also read https://www.samsung.com/us/shop/offer-program/. No discount amounts are public; prices appear only after verification. Limit of two products per product category per email/shipping address per calendar year. A search snippet mentioned .edu email eligibility, but the fetched pages only say 'qualified email', so .edu is not confirmed."
+    },
+    {
+      "brand": "Microsoft Store",
+      "aliases": [
+        "microsoft store",
+        "surface"
+      ],
+      "category": "shopping",
+      "status": "verified",
+      "offer": "Education discount of up to 10% on select physical products such as select Surface devices, PCs and PC accessories; you pay whichever is lower, the student price or the sale price.",
+      "eligibility": "Students and parents of students from primary school through higher education, including home school, plus faculty working in education. Institutions and business purchasers do not qualify.",
+      "verification": "Eligibility check using the email tied to your personal Microsoft account (Microsoft says not to use a work or school account), then sign in to see the discount at checkout.",
+      "price": "Up to 10% off select physical products",
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": "United States (Microsoft Store online in the United States only)",
+      "source_url": "https://www.microsoft.com/en-us/store/b/education",
+      "checked": "2026-10-24",
+      "note": "Also read https://www.microsoft.com/en-us/store/r/student-discounts and /store/b/special-discount-terms/. Excludes Xbox, Surface for Business, Office/Microsoft 365, Windows, digital content, gift cards and subscriptions. Does not stack with other promotions. The Surface trade-in promo on the page ran Aug 3 to Sep 30, 2026 and has ended."
+    },
+    {
+      "brand": "Lenovo",
+      "aliases": [
+        "lenovo",
+        "thinkpad"
+      ],
+      "category": "shopping",
+      "status": "verified",
+      "offer": "Education Discount: exclusive extra savings for students, applied after ID.me verification in the cart; exclusions apply on select new and discounted products.",
+      "eligibility": "College or university students, teachers, and incoming students with a letter of acceptance.",
+      "verification": "ID.me (in cart)",
+      "price": null,
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://www.lenovo.com/us/en/military/students-and-teachers.html",
+      "checked": "2026-10-24",
+      "note": "The page does not give a percentage for the student discount (it lists 5% only for seniors 55+, which was in a search snippet, not the fetched text). It is under lenovo.com/us, but the fetched text does not state the country. A '5% off sitewide' line in search results came from the Lenovo Outlet page and was not verified. https://www.lenovo.com/us/en/d/deals/student/ loaded only legal text."
+    },
+    {
+      "brand": "Nike",
+      "aliases": [
+        "nike"
+      ],
+      "category": "shopping",
+      "status": "unverified",
+      "offer": null,
+      "eligibility": null,
+      "verification": null,
+      "price": null,
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://www.nike.com/help/a/student-discount",
+      "checked": "2026-10-24",
+      "note": "The official help page loaded with only its title ('Does Nike Offer a Student Discount?') and no body text, on three tries: plain, full mode, and ?country=US. https://www.nike.com/us/en/help/a/student-discount also loaded empty. A search snippet said 10% off for US students, but that text could not be read on the page itself, so it is not counted."
+    },
+    {
+      "brand": "Adidas",
+      "aliases": [
+        "adidas"
+      ],
+      "category": "shopping",
+      "status": "unverified",
+      "offer": null,
+      "eligibility": null,
+      "verification": null,
+      "price": null,
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://www.adidas.com/us/students",
+      "checked": "2026-10-24",
+      "note": "The official student page (https://www.adidas.com/us/students) returned HTTP 403 Forbidden, and so did https://www.adidas.com/us/promotions. Student-discount amounts appear only on third-party sites (UNiDAYS, Student Beans, blogs), which do not count, and they disagree with each other (15% vs 30%)."
+    },
+    {
+      "brand": "Under Armour",
+      "aliases": [
+        "under armour"
+      ],
+      "category": "shopping",
+      "status": "verified",
+      "offer": "Exclusive extra 20% off online for students.",
+      "eligibility": "Students (no further detail on the page).",
+      "verification": "UNiDAYS (register and verify student status)",
+      "price": "Extra 20% off",
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": null,
+      "source_url": "https://www.underarmour.com/en-us/t/unidays/",
+      "checked": "2026-10-24",
+      "note": "The page is on underarmour.com (en-us) but is very short: no terms, exclusions, end date or country are stated. https://www.underarmour.com/en-us/t/ua-promo-offers.html does not mention students; its listed 20% discount covers military, first responders, healthcare workers and teachers."
+    },
+    {
+      "brand": "J.Crew",
+      "aliases": [
+        "j.crew",
+        "jcrew",
+        "j crew"
+      ],
+      "category": "shopping",
+      "status": "verified",
+      "offer": "15% off purchases in stores and online at J.Crew and J.Crew Factory for students and teachers.",
+      "eligibility": "College students and teachers with a valid college/teacher ID.",
+      "verification": "In store: show a valid college student or teacher ID. Online: verify eligibility through the page's link (provider not named); the discount appears in your account about 24 hours after verification.",
+      "price": "15% off",
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "not stated",
+      "countries": "U.S. only",
+      "source_url": "https://www.jcrew.com/r/help/teacher-student-discount",
+      "checked": "2026-10-24",
+      "note": "Not valid on phone orders, gift cards or past purchases; exclusions apply and terms may change. A search snippet showed a 20% student discount from Aug 5 to 25, 2026; that window has passed, and the current page shows 15%."
+    },
+    {
+      "brand": "Amtrak",
+      "aliases": [
+        "amtrak",
+        "train"
+      ],
+      "category": "travel",
+      "status": "verified",
+      "offer": "National student discount of 15% off the regular full adult rail fare, booked at least one day in advance; applied automatically for qualifying travel, or use code V814 in the Amtrak app.",
+      "eligibility": "Student passengers aged 17-24 with a valid student ID.",
+      "verification": "Valid student ID",
+      "price": "15% off regular full adult rail fare",
+      "price_after": null,
+      "duration": null,
+      "auto_renews": "no",
+      "countries": "United States (Amtrak routes; excludes listed services)",
+      "source_url": "https://www.amtrak.com/student-discounts",
+      "checked": "2026-10-24",
+      "note": "Coach and Acela Business Class only, and availability is limited at busy times. Excludes many corridor services, including Keystone, Pennsylvanian, Hiawatha, Wolverine, Lincoln Service, Capitol Corridor and Gold Runner. Not valid with Guest Rewards points or Points & Cash. Separate regional student pages (New York, Midwest, California, cheap-student-tickets) showed ages 13-25 and different advance-purchase rules in search snippets. Those pages were not fetched. 'auto_renews: no' because this is a per-booking fare discount, not a subscription."
+    },
+    {
+      "brand": "Levi's",
+      "aliases": [
+        "levis",
+        "levi's",
+        "levi"
+      ],
+      "category": "shopping",
+      "status": "verified",
+      "offer": "10% off eligible orders at Levi.com with a single-use code; stacks with promotions up to 40% off but not with deeper ones.",
+      "eligibility": "Active college and university students in the United States.",
+      "verification": "SheerID (via the Levi's Student Discount Form)",
+      "price": "10% off",
+      "price_after": null,
+      "duration": "Up to 2 single-use codes per 365-day period",
+      "auto_renews": "not stated",
+      "countries": "United States",
+      "source_url": "https://help.levi.com/hc/en-us/articles/31500372066573-Student-Discount-Program",
+      "checked": "2026-10-24",
+      "note": "Read on Levi's official help center (help.levi.com). Verification needs school name, full legal name, date of birth and email. The page does not say whether the discount works in Levi's stores."
+    }
+  ]
+}
