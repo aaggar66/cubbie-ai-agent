@@ -11,7 +11,7 @@ import argparse
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 NAME = "student-saver"
@@ -37,6 +37,18 @@ def path_savings(sample: bool) -> Path:
 
 def path_watches(sample: bool) -> Path:
     return config_dir(sample) / "watches.json"
+
+
+def path_offers(sample: bool) -> Path:
+    return config_dir(sample) / "offers.json"
+
+
+def parse_day(value: str, flag: str) -> date:
+    try:
+        return date.fromisoformat(value)
+    except (TypeError, ValueError):
+        print(f"error: {flag} must be a date like 2026-10-24", file=sys.stderr)
+        sys.exit(2)
 
 
 def read_json(path: Path, default):
@@ -191,6 +203,79 @@ def cmd_watch_hit(args) -> None:
     print(json.dumps({"ok": True, "watch": found}, indent=2))
 
 
+def offer_view(item: dict, today: date) -> dict:
+    """Add days_left, status and the reminder dates still ahead of today."""
+    v = dict(item)
+    ends = date.fromisoformat(item["ends"])
+    days_left = (ends - today).days
+    v["days_left"] = days_left
+    if days_left < 0:
+        v["status"] = "ended"
+    elif days_left <= max(item.get("remind_days") or [0]):
+        v["status"] = "ending_soon"
+    else:
+        v["status"] = "active"
+    v["upcoming_reminders"] = sorted(
+        (ends - timedelta(days=d)).isoformat()
+        for d in set(item.get("remind_days") or [])
+        if ends - timedelta(days=d) >= today
+    )
+    return v
+
+
+def cmd_offer_add(args) -> None:
+    ends = parse_day(args.ends, "--ends")
+    started = parse_day(args.started, "--started") if args.started else None
+    if started and ends < started:
+        print("error: --ends is before --started", file=sys.stderr)
+        sys.exit(2)
+    if any(d < 0 for d in args.remind_days):
+        print("error: --remind-days must be 0 or more", file=sys.stderr)
+        sys.exit(2)
+    offers = read_json(path_offers(args.sample), {"items": []})
+    # Same service + offer name replaces the old entry (e.g. after re-verifying)
+    offers["items"] = [
+        o for o in offers["items"]
+        if not (o["service"].lower() == args.service.lower() and o["offer"].lower() == args.offer.lower())
+    ]
+    next_id = max([int(o["id"][1:]) for o in offers["items"] if o["id"][1:].isdigit()] + [0]) + 1
+    item = {
+        "id": f"o{next_id}",
+        "service": args.service,
+        "offer": args.offer,
+        "started": started.isoformat() if started else None,
+        "ends": ends.isoformat(),
+        "price_after": args.price_after,
+        "auto_renews": args.auto_renews,
+        "url": args.url,
+        "remind_days": sorted(set(args.remind_days), reverse=True),
+        "created_at": datetime.now(timezone.utc).isoformat(),
+    }
+    offers["items"].append(item)
+    write_json(path_offers(args.sample), offers)
+    today = parse_day(args.today, "--today") if args.today else date.today()
+    print(json.dumps({"ok": True, "offer": offer_view(item, today)}, indent=2))
+
+
+def cmd_offer_list(args) -> None:
+    offers = read_json(path_offers(args.sample), {"items": []})
+    today = parse_day(args.today, "--today") if args.today else date.today()
+    views = sorted((offer_view(o, today) for o in offers["items"]), key=lambda v: v["ends"])
+    print(json.dumps({"today": today.isoformat(), "count": len(views), "offers": views}, indent=2))
+
+
+def cmd_offer_remove(args) -> None:
+    offers = read_json(path_offers(args.sample), {"items": []})
+    keep = [o for o in offers["items"] if o["id"] != args.id and o["service"].lower() != args.id.lower()]
+    if len(keep) == len(offers["items"]):
+        print("error: offer not found", file=sys.stderr)
+        sys.exit(3)
+    removed = len(offers["items"]) - len(keep)
+    offers["items"] = keep
+    write_json(path_offers(args.sample), offers)
+    print(json.dumps({"ok": True, "removed": removed}, indent=2))
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description="StudentSaver wallet / savings / watches")
     p.add_argument(
@@ -244,7 +329,30 @@ def main() -> None:
     s.add_argument("--current", type=float, required=True)
     s.set_defaults(fn=cmd_watch_hit)
 
+    s = sub.add_parser("offer-add", help="Track a claimed free or student offer until it ends or renews")
+    s.add_argument("--service", required=True, help="e.g. Kiro")
+    s.add_argument("--offer", required=True, help="e.g. Student plan, 1,000 credits/month")
+    s.add_argument("--ends", required=True, help="YYYY-MM-DD the free/discounted period ends, renews or needs re-verification")
+    s.add_argument("--started", help="YYYY-MM-DD")
+    s.add_argument("--price-after", default="unknown", help='e.g. "$20/month"')
+    s.add_argument("--auto-renews", choices=["yes", "no", "unknown"], default="unknown")
+    s.add_argument("--url", default="", help="Official page to cancel, renew or re-verify")
+    s.add_argument("--remind-days", type=int, action="append", default=None,
+                   help="Days before --ends to remind; repeat (default 7 and 1)")
+    s.add_argument("--today", help="YYYY-MM-DD, the student's local date")
+    s.set_defaults(fn=cmd_offer_add)
+
+    s = sub.add_parser("offer-list", help="Tracked offers, soonest end first, with reminder dates")
+    s.add_argument("--today", help="YYYY-MM-DD, the student's local date")
+    s.set_defaults(fn=cmd_offer_list)
+
+    s = sub.add_parser("offer-remove", help="Stop tracking an offer (by id or service)")
+    s.add_argument("--id", required=True)
+    s.set_defaults(fn=cmd_offer_remove)
+
     args = p.parse_args()
+    if getattr(args, "remind_days", "unset") is None:
+        args.remind_days = [7, 1]
     args.fn(args)
 
 

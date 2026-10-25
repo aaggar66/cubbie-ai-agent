@@ -33,6 +33,33 @@ CATEGORY_TERMS = {
 
 DOMAIN_RE = re.compile(r"^[a-z0-9-]+(\.[a-z0-9-]+)+$")
 
+# A perk older than this is marked "recheck": about one semester.
+DEFAULT_MAX_AGE_DAYS = 120
+
+
+def parse_day(value: str, flag: str) -> date:
+    try:
+        return date.fromisoformat(value)
+    except (TypeError, ValueError):
+        print(f"error: {flag} must be a date like 2026-10-24", file=sys.stderr)
+        sys.exit(2)
+
+
+def with_freshness(perks: list[dict], today: date, max_age_days: int) -> list[dict]:
+    """Add days_since_check and status (fresh | recheck) to each perk.
+    A missing or unreadable checked date counts as recheck."""
+    out = []
+    for perk in perks:
+        p = dict(perk)
+        try:
+            age = (today - date.fromisoformat(p.get("checked", ""))).days
+        except (TypeError, ValueError):
+            age = None
+        p["days_since_check"] = age
+        p["status"] = "fresh" if age is not None and 0 <= age <= max_age_days else "recheck"
+        out.append(p)
+    return out
+
 
 def normalize_domain(raw: str) -> str:
     """Accept a domain, URL or email (asu.edu, https://www.asu.edu/x, a@asu.edu,
@@ -94,12 +121,18 @@ def search_queries(domain: str, query: str | None, category: str | None) -> list
 def cmd_show(args) -> None:
     domain = normalize_domain(args.domain)
     cache = load_cache(domain, args.sample)
+    today = parse_day(args.today, "--today") if args.today else date.today()
+    perks = with_freshness(matching_perks(cache, args.query, args.category), today, args.max_age_days)
     out = {
         "domain": domain,
-        "perks": matching_perks(cache, args.query, args.category),
+        "today": today.isoformat(),
+        "max_age_days": args.max_age_days,
+        "recheck_count": sum(1 for p in perks if p["status"] == "recheck"),
+        "perks": perks,
         "search_queries": search_queries(domain, args.query, args.category),
-        "next_step": "Open the school's own pages from these searches. Count a perk only if a page on "
-                     f"{domain} (or a page it links to) says students get it, then save it with `add`.",
+        "next_step": "Reopen the url of every perk with status recheck before using it, and save it again with "
+                     "`add` (same name) if the page still says so. Open the school's own pages from these searches. "
+                     f"Count a perk only if a page on {domain} (or a page it links to) says students get it.",
     }
     print(json.dumps(out, indent=2))
 
@@ -119,6 +152,7 @@ def cmd_add(args) -> None:
         "url": args.url,
         "checked": args.checked or date.today().isoformat(),
     }
+    parse_day(perk["checked"], "--checked")
     if args.sample:
         print(json.dumps({"ok": True, "sample": True, "perk": perk}, indent=2))
         return
@@ -150,6 +184,9 @@ def main() -> None:
     s.add_argument("--domain", required=True)
     s.add_argument("--query", "-q")
     s.add_argument("--category", "-c", choices=sorted(CATEGORY_TERMS))
+    s.add_argument("--today", help="YYYY-MM-DD, the student's local date (the sandbox clock may differ)")
+    s.add_argument("--max-age-days", type=int, default=DEFAULT_MAX_AGE_DAYS,
+                   help=f"Perks checked longer ago than this are marked recheck (default {DEFAULT_MAX_AGE_DAYS})")
     s.set_defaults(fn=cmd_show)
 
     s = sub.add_parser("add", help="Save a perk verified on the school's own site")

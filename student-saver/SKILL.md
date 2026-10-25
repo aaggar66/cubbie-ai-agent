@@ -1,6 +1,6 @@
 ---
 name: student-saver
-description: "Student savings agent that starts from what the student's own school gives them free, then brand discounts, price stacking, deal watches and semester totals. Use when the student asks what their school gives them, says optimize my purchase, asks if a store or app has a student discount (McDonald's, Amazon, AMC, Adobe, ChatGPT), wants card vs coupon help, a deal watch, savings dashboard, or missed Spotify/Adobe student plans."
+description: "Student savings agent that starts from what the student's own school gives them free, then brand discounts, price stacking, deal watches and semester totals. Use when the student asks what their school gives them, says optimize my purchase, asks if a store or app has a student discount (McDonald's, Amazon, AMC, Adobe, ChatGPT), wants card vs coupon help, a deal watch, savings dashboard, missed Spotify/Adobe student plans, or a reminder before a student plan or free trial ends."
 ---
 
 # StudentSaver (Cubbie Skill)
@@ -20,6 +20,7 @@ No API keys. Never store card numbers. Never invent coupon codes. Never pay or c
 - "How much have I saved this semester?" / savings dashboard
 - "Am I missing student plans for Spotify or Adobe?"
 - "What does my school give me for free?"
+- "I just claimed the Kiro student plan, remind me before it ends"
 
 ## Setup
 
@@ -75,8 +76,11 @@ python3 scripts/school.py add --domain asu.edu --name "ChatGPT Edu" --category s
   --how-to-claim "Sign in with ASU account" --url "https://ai.asu.edu/chatgpt-edu" --checked 2026-10-24
 ```
 
-Pass `--checked` as the student's local date. Recheck a saved perk on its page if it is older than one
-semester, before you rely on it.
+Pass `--checked` as the student's local date. When you run `show`, pass `--today` with the student's local
+date too (the sandbox clock may be in another time zone). Each saved perk comes back with `status`: `fresh`
+(checked within the last 120 days, about one semester) or `recheck`. Reopen the page of every `recheck` perk
+before you mention it; if the page still says so, save it again with `add` and the same name, otherwise
+don't mention it.
 
 ### 3. Then brands
 
@@ -178,6 +182,39 @@ Proactively (or when asked "what am I missing?"): first what the student's schoo
 with **Web**. List only verified gaps: current vs student plan, estimated yearly save.
 Never claim a plan exists without a live official page.
 
+## Free trial and offer tracking
+
+Student plans and free trials often end or turn into a paid plan on a set date. When the student says
+they claimed an offer, or a reply you sent mentions a free or discounted period, offer to track it.
+
+1. Take the end date, the price after and whether it renews on its own from the official terms page you
+   opened. If the page gives a length instead of a date ("12 months"), ask the student the day they
+   claimed it and count from there. If you can't find the end date, ask the student; never guess it.
+2. On the student's yes, save it (dates in the student's local time):
+
+```bash
+python3 scripts/wallet.py offer-add --service "Kiro" --offer "Student plan, 1,000 credits/month" \
+  --started 2026-10-24 --ends 2027-10-24 --price-after "<price from the terms page>" --auto-renews unknown \
+  --url "https://kiro.dev/students/" --today 2026-10-24
+```
+
+   Reminders default to 7 days and 1 day before `--ends`. Use the days the student picks instead, with
+   `--remind-days` repeated (`--remind-days 30 --remind-days 3`).
+3. The output lists `upcoming_reminders`. Create one reminder with Cubbie's **Reminders** capability for each
+   date, only after the student agrees. Word each one so it makes sense on its own: the service, the end
+   date, the price after, whether it renews automatically, and the `url` on its own line.
+
+When the student asks "what am I tracking?" or "what's ending soon?":
+
+```bash
+python3 scripts/wallet.py offer-list --today <student's local date>
+```
+
+Each offer has `days_left` and `status` (`active`, `ending_soon` or `ended`). Text the `ending_soon` ones
+first. Stop tracking with `python3 scripts/wallet.py offer-remove --id <id or service>`.
+
+Never cancel, renew or re-verify an offer for the student. Give the steps and the official link.
+
 ## Savings dashboard (in-thread + PDF)
 
 ```bash
@@ -203,6 +240,8 @@ Never invent codes. Never guarantee approval of SheerID / .edu verify.
 | `school.py` exit 2 | Not a school domain; ask for the school's name and find its website |
 | `school.py add` exit 4 | Source isn't the school's site; find the school's own page or don't save it |
 | School search finds nothing | Say "Didn't find this on <school> pages" and move on to brand offers |
+| `offer-add` exit 2 | A date is missing or wrong; ask the student for the date and retry once |
+| `offer-remove` exit 3 | Nothing tracked by that name; run `offer-list` and show what is tracked |
 | Optimize missing inputs | Ask for retail price or verify % first |
 | Wallet card looks like a number | Refuse; ask for nickname only |
 | No live official offer | Say so; suggest ask in-store with student ID if relevant |
