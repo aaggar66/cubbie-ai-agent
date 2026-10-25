@@ -56,6 +56,14 @@ sundevilhospitality.asu.edu.
 | Apple education store | https://www.apple.com/us-hed/shop | Education pricing and any current promotion |
 | Dell University store for ASU | https://www.dell.com/en-us/member/shop/delluniversity/cp/asu | ASU member pricing |
 
+## Local coupons (third party, not ASU)
+
+| What | Page | Note |
+| --- | --- | --- |
+| Student Insider, ASU coupons | https://www.studentinsider.com/ASU/Coupons | Advertiser-funded local guide for Tempe and Downtown Phoenix. Coupons list their own codes, conditions and expiry dates. |
+
+Label these as Student Insider coupons, not ASU perks.
+
 ## If something isn't listed
 
 Run `python3 scripts/school.py show --domain asu.edu --query "<item>"` and open the ASU pages its searches

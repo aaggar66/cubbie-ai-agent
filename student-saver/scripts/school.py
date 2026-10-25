@@ -33,6 +33,15 @@ CATEGORY_TERMS = {
 
 DOMAIN_RE = re.compile(r"^[a-z0-9-]+(\.[a-z0-9-]+)+$")
 
+# Third-party local coupon guides, by school domain. Student Insider (studentinsider.com) is an
+# advertiser-funded guide; its homepage lists these four schools as its service areas (checked 2026-10-24).
+LOCAL_COUPON_SITES = {
+    "asu.edu": "https://www.studentinsider.com/ASU/Coupons",
+    "arizona.edu": "https://www.studentinsider.com/UA/Coupons",
+    "nau.edu": "https://www.studentinsider.com/NAU/Coupons",
+    "tamu.edu": "https://www.studentinsider.com/TAMU/Coupons",
+}
+
 # A perk older than this is marked "recheck": about one semester.
 DEFAULT_MAX_AGE_DAYS = 120
 
@@ -130,6 +139,10 @@ def cmd_show(args) -> None:
         "recheck_count": sum(1 for p in perks if p["status"] == "recheck"),
         "perks": perks,
         "search_queries": search_queries(domain, args.query, args.category),
+        "local_coupons": (
+            {"source": "Student Insider (third-party, advertiser-funded)", "url": LOCAL_COUPON_SITES[domain]}
+            if domain in LOCAL_COUPON_SITES else None
+        ),
         "next_step": "Reopen the url of every perk with status recheck before using it, and save it again with "
                      "`add` (same name) if the page still says so. Open the school's own pages from these searches. "
                      f"Count a perk only if a page on {domain} (or a page it links to) says students get it.",

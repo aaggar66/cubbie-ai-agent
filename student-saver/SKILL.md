@@ -1,13 +1,13 @@
 ---
 name: student-saver
-description: "Student savings agent that starts from what the student's own school gives them free, then brand discounts, price stacking, deal watches and semester totals. Use when the student asks what their school gives them, says optimize my purchase, asks if a store or app has a student discount (McDonald's, Amazon, AMC, Adobe, ChatGPT), wants card vs coupon help, a deal watch, savings dashboard, missed Spotify/Adobe student plans, or a reminder before a student plan or free trial ends."
+description: "Student savings agent that starts from what the student's own school gives them free, then brand discounts, price stacking, deal watches and semester totals. Use when the student asks what their school gives them, says optimize my purchase, asks if a store or app has a student discount (McDonald's, Amazon, AMC, Adobe, ChatGPT), wants card vs coupon help, a deal watch, savings dashboard, missed Spotify/Adobe student plans, local coupons near campus, or a reminder before a student plan or free trial ends."
 ---
 
 # StudentSaver (Cubbie Skill)
 
-Autonomous-feeling savings agent for students — **not** a coupon dump.
-
-Pitch: given what this student is eligible for, find the cheapest *legitimate* way to buy, watch until a target hits, and track real savings.
+Before a student pays for something, find out whether their school already gives it to them, whether
+there's an official student offer, and what the cheapest legitimate way to pay is. Then make sure a free
+period never turns into a surprise charge.
 
 No API keys. Never store card numbers. Never invent coupon codes. Never pay or check out for the student.
 
@@ -16,16 +16,42 @@ No API keys. Never store card numbers. Never invent coupon codes. Never pay or c
 - "Does McDonald's have a student discount?"
 - "Optimize my purchase — AirPods under $180"
 - "I have Chase Freedom and Prime Student — what's best at Best Buy?"
-- "Watch this deal 24/7 until it's under $170"
+- "Watch this deal until it's under $170"
 - "How much have I saved this semester?" / savings dashboard
 - "Am I missing student plans for Spotify or Adobe?"
 - "What does my school give me for free?"
+- "Any coupons for food near campus?"
 - "I just claimed the Kiro student plan, remind me before it ends"
 
 ## Setup
 
 Scripts use the Python standard library only. State is saved under
 `~/.config/student-saver/` (wallet, savings log, watches, school perks). `--sample` never writes there.
+
+## First message after install
+
+The first reply decides whether a student keeps using this Skill, so make it useful without any setup.
+When the student installs the Skill, or uses it for the first time, and hasn't asked anything specific:
+
+1. Find the school as in "Your school first", step 1, without asking if Cubbie can.
+2. Run `python3 scripts/school.py show --domain <school_domain> --today <student's local date>`, and
+   read `references/schools/<school_domain>.md` if it exists.
+3. Open the school's official pages and pick up to three perks this student can use now, preferring ones
+   that replace something people often pay for (software, AI tools, transit, event tickets). Mention only
+   perks you confirmed on the school's own pages in this step or that `show` returned as `fresh`.
+4. Text them, then ask one question:
+
+```text
+You're at <school>. 3 things you already get free:
+1. <perk>, <one line>
+2. <perk>, <one line>
+3. <perk>, <one line>
+
+Want me to check if you're paying for anything you could get free or cheaper?
+```
+
+Put each perk's link in its own message after the list. If you couldn't confirm any perk, skip the list
+and ask what the student is about to buy instead. Don't start the wallet interview in this first reply.
 
 ## Your school first
 
@@ -89,7 +115,7 @@ what they asked for, or an equal tool, lead with that.
 
 ## Student Wallet
 
-On first use (or when asked), build a lightweight wallet. Ask one question at a time.
+On request, or when a flow needs it (not in the first reply), build a lightweight wallet. Ask one question at a time.
 Remember with Cubbie's **Memory** capability AND persist with the script:
 
 ```bash
@@ -112,15 +138,44 @@ Rules:
 When they name a store or ask "student discount at X":
 
 ```bash
-python3 scripts/lookup.py --query "<brand>" --limit 5
+python3 scripts/lookup.py --query "<brand>" --limit 5 --today <student's local date>
 python3 scripts/lookup.py --category food_restaurants --limit 10
 python3 scripts/lookup.py --list-categories
 ```
 
-Then **verify live** with Cubbie's **Web** capability on `verify_urls` / partner hubs
-(UNiDAYS, Student Beans, SheerID, official edu pages). Trust the live page over `offer_hint`.
+The output has two parts:
 
-Dataset: `assets/merchants.json` (200+ food, grocery, shopping, movies, software merchants).
+- `verified_offers`: up to three offers the team read on the brand's official pages, from
+  `assets/verified_offers.json` (30 US offers). Each has a `status` and a `freshness`:
+  - `verified` + `fresh` (checked within 30 days): you may use its offer, price, terms and `source_url`, and
+    say the date it was checked ("checked Oct 24").
+  - `verified` + `recheck`: reopen `source_url` before using it.
+  - `not_available`: the official page said the offer ended (for example Cursor's student discount). Say so,
+    and mention the alternatives in its `note` if any.
+  - `unverified`: the official page couldn't be read. Treat it as unknown and check live; never present it
+    as a fact.
+  Fields that are `null` were not stated on the official page. Say "not stated" rather than filling them in.
+- `matches`: rows from `assets/merchants.json` (222 brands) that say only where to look. Verify live with
+  Cubbie's **Web** capability on `verify_urls` / partner hubs (UNiDAYS, Student Beans, SheerID, the brand's
+  own pages) before mentioning any discount. Trust the live page over `offer_hint`.
+
+## Local coupons near campus
+
+For food, entertainment, beauty, fitness and shopping near campus, `school.py show` returns `local_coupons`
+for schools that Student Insider covers (ASU, University of Arizona, NAU, Texas A&M). Student Insider
+(studentinsider.com) is a third-party guide paid for by its advertisers; it is not run by the school.
+
+1. Open the `local_coupons` url (the school's Coupons page) and find listings that match what the student
+   wants, near the campus they're on.
+2. Show each coupon exactly as the page states it: business, offer, code if one is printed, conditions and
+   expiry date. Skip coupons that have expired.
+3. Say where it comes from: "From Student Insider (local coupon guide, not ASU)". Don't call it an official
+   school perk.
+4. Don't suggest listings for bars, drink specials, cannabis dispensaries or smoke and vape shops unless the
+   student asks for that category.
+
+For schools Student Insider doesn't cover, `local_coupons` is null; search for local student discounts
+near the campus and count only those the business itself states.
 
 ## Optimize My Purchase (signature flow)
 
